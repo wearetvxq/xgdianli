@@ -1,0 +1,243 @@
+.ddd{
+    backgroun:#D9D9D9;
+    padding: 0 20px;
+}
+.page-foot table {
+   table-layout: fixed;
+    width: 100%;
+}
+.page-foot td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+th,td{
+    text-align:center;
+}
+.ddd .page-head{
+    background: #fff;
+    width: 100%;
+    height: 50px;
+    text-indent: 20px;
+    line-height: 50px;
+}
+.ddd .page-content{
+    position: relative;
+    padding: 25px 0;
+    width: 100%;
+}
+.ddd .page-content .left{
+    width: 85%;
+    float: left;
+}
+.ddd .page-content .reight{
+    position: absolute;
+    width: 200px;
+    right: 0px;
+    top: 35px;
+}
+.ddd .page-content .reight .btn{
+    margin: 0 10px;
+    width: 73px;
+    height: 32px;
+    line-height: 20px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    
+}
+.ddd .page-content .reight .btn1{
+    background-color: rgba(144, 219, 90, 1);
+}
+.ddd .page-content .reight .btn span{
+    width: 24px;
+    height: 24px;
+    margin-left: -14px;
+    margin-top: 2px;
+}
+.ddd .page-content .reight .btn2{
+    background-color: rgba(39, 114, 238, 1);
+}
+
+.ddd .page-content .search{
+    display: -webkit-flex;
+    display: flex;
+    margin: 10px 0px ;
+}
+.ddd .page-content .search>p,.ddd .page-content .search .form-group>p{
+    display: inline-block;
+    white-space:nowrap;
+    height: 30px;
+    line-height: 30px;
+    color: rgba(56, 63, 71, 1);
+    font-size: 12px;
+    text-align: left;
+    font-family: Roboto;
+    vertical-align: top;
+}
+.ddd .page-content .search .form-group>p{
+    width: 60px;
+}
+.ddd .page-content .search>div,.ddd .page-content .search .form-group>div{
+    display: inline-block;
+}
+.form-group{
+    width: 50%;
+    height: 30px;
+    margin: 0;
+}
+.input-group-addon{
+    width:30px;
+}
+
+.ddd .page-content .search select{
+    width: 140px;
+    height: 30px;
+    line-height: 20px;
+    color: rgba(16, 16, 16, 1);
+    font-size: 14px;
+    font-family: Microsoft Yahei;
+    border: 1px solid rgba(217, 217, 217, 1);
+}
+.ddd .page-content .search input{
+    width: 158px;
+    height: 30px;
+    color: rgba(136, 136, 136, 1);
+    font-size: 14px;
+    text-align: left;
+    font-family: Microsoft Yahei;
+    text-indent: 10px;
+    border: 1px solid rgba(217, 217, 217, 1);
+}
+.ddd .page-foot{
+   
+}
+.ddd .page-content .search1 input{
+    width: 106px;
+    text-indent: 0;
+}
+
+
+.modal-content{
+    width:200px;
+    height: 200px;
+    position:relative;
+    left:50%;
+    margin-left: -100px;
+}
+.modal-img{
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+}
+.pagination span{
+    color: #222;
+}
+
+.container{
+    width: 100%;
+}
+
+.insectSite .page-content .left{width: 70%;}
+.meterReading .page-content .left{width: 70%;}
+/*.insectSite .search1{width: 40%;}*/
+.equipmentresourcepower .search1{width: 40%;}
+.equipmentresourcepower .search2{width: 20%;}
+.equipmentresourcepower .search3{width: 20%;}
+.equipmentresourcepower .search4{width: 20%;}
+.equipmentresourcepower .search5{width: 20%;}
+.equipmentresourcepower .search6{width: 20%;}
+.equipmentresourcepower .search7{width: 20%;}
+.equipmentresourcepower .search8{width: 25%;}
+
+.equipmentresourceaccumulator .search1{width: 40%;}
+.equipmentresourceaccumulator .search2{width: 20%;}
+.equipmentresourceaccumulator .search3{width: 20%;}
+.equipmentresourceaccumulator .search4{width: 20%;}
+.equipmentresourceaccumulator .search5{width: 20%;}
+.equipmentresourceaccumulator .search6{width: 20%;}
+.equipmentresourceaccumulator .search7{width: 20%;}
+.equipmentresourceaccumulator .search8{width: 25%;}
+
+.equipmentresourceconditioner .search1{width: 40%;}
+.equipmentresourceconditioner .search2{width: 20%;}
+.equipmentresourceconditioner .search3{width: 21%;}
+.equipmentresourceconditioner .search4{width: 20%;}
+.equipmentresourceconditioner .search5{width: 20%;}
+.equipmentresourceconditioner .search6{width: 20%;}
+.equipmentresourceconditioner .search7{width: 20%;}
+.equipmentresourceconditioner .search8{width: 20%;}
+
+.equipmentresourceacdistribution .page-content .left{width: 70%;}
+.equipmentresourceacdistribution .search1{width: 50%;}
+.equipmentresourceacdistribution .search2{width: 25%;}
+.equipmentresourceacdistribution .search3{width: 25%;}
+.equipmentresourceacdistribution .search4{width: 25%;}
+.equipmentresourceacdistribution .search5{width: 25%;}
+.equipmentresourceacdistribution .search6{width: 25%;}
+
+.equipmentresourceout .page-content .left{width: 70%;}
+.equipmentresourceout .search1{width: 50%;}
+.equipmentresourceout .search2{width: 25%;}
+.equipmentresourceout .search3{width: 25%;}
+.equipmentresourceout .search4{width: 25%;}
+.equipmentresourceout .search5{width: 25%;}
+.equipmentresourceout .search6{width: 25%;}
+
+/*直流远供局端设备统计表*/
+.equipmentresourcedirec .page-content .left{width: 70%;}
+.equipmentresourcedirec .search1{width: 50%;}
+.equipmentresourcedirec .search2{width: 25%;}
+.equipmentresourcedirec .search3{width: 25%;}
+.equipmentresourcedirec .search4{width: 25%;}
+.equipmentresourcedirec .search5{width: 25%;}
+.equipmentresourcedirec .search6{width: 25%;}
+.equipmentresourcedirec .search7{width: 25%;}
+
+
+/*一体化机柜设备统计表*/
+.equipmentresourceintegration .page-content .left{width: 70%;}
+.equipmentresourceintegration .search1{width: 50%;}
+.equipmentresourceintegration .search2{width: 25%;}
+.equipmentresourceintegration .search3{width: 25%;}
+.equipmentresourceintegration .search4{width: 25%;}
+.equipmentresourceintegration .search5{width: 25%;}
+.equipmentresourceintegration .search6{width: 25%;}
+
+/*变压器设备统计表*/
+.equipmentresourceteansformer .page-content .left{width: 70%;}
+.equipmentresourceteansformer .search1{width: 50%;}
+.equipmentresourceteansformer .search2{width: 25%;}
+.equipmentresourceteansformer .search3{width: 25%;}
+.equipmentresourceteansformer .search4{width: 25%;}
+.equipmentresourceteansformer .search5{width: 25%;}
+.equipmentresourceteansformer .search6{width: 25%;}
+
+
+/*应急机油设备统计表*/
+.equipmentresourceemergency .page-content .left{width: 70%;}
+.equipmentresourceemergency .search1{width: 50%;}
+.equipmentresourceemergency .search2{width: 26%;}
+.equipmentresourceemergency .search3{width: 25%;}
+.equipmentresourceemergency .search4{width: 25%;}
+.equipmentresourceemergency .search5{width: 25%;}
+.equipmentresourceemergency .search6{width: 25%;}
+
+
+/*铁塔*/
+.tower .page-content .left{width: 70%;}
+.tower .search1{width: 50%;}
+.tower .search2{width: 26%;}
+.tower .search3{width: 25%;}
+.tower .search4{width: 25%;}
+.tower .search5{width: 25%;}
+
+/*基站专业清理统计表*/
+.professionalCleaning .page-content .left{width: 70%;}
+.professionalCleaning .search1{width: 50%;}
+.professionalCleaning .search2{width: 25%;}
+.professionalCleaning .search3{width: 25%;}
+.professionalCleaning .search4{width: 25%;}
+.professionalCleaning .search5{width: 25%;}
+.professionalCleaning .search6{width: 25%;}
+.professionalCleaning .search7{width: 25%;}

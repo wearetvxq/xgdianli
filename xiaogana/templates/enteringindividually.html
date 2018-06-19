@@ -1,0 +1,116 @@
+            <div class="row">
+            <div class="col-md-12" style="position:relative;">
+                    <h3 style="height:28px;line-height:28px;font-size:18px;font-weight:700;color:#7B777B;margin:10px 0;" class="pull-left">
+                        单独添加&nbsp;&nbsp;&nbsp;&nbsp;
+                    </h3>      
+                </div>
+                <div class="toLeadlly pull-left">
+                <div class="from-wrap">
+                    <form id="uploadFormlly">
+                    <!--一级地区选择-->
+                         <div class="selectPag1 " style="margin-right:12px;margin-top:0px;">
+                            <span class="selectBtitle1 pull-left">地区选择</span>
+                            <ul class="list-inline prod_size pull-left" style="position: relative;margin-bottom:6px;">
+                                <li style="padding-left:0;padding-right:0;">
+                                  <div class="lg_search_box" style="width:330px;height:40px;">
+                                      <div class="lg_border_box" style="width:330px;height:40px;">
+                                          <input type="text" readonly="readonly" id="lg_down_box" style="width:82%;height:35px;font-size:14px;" ng-model="sAbnOne">
+                                          <small class="fa fa-unsorted" style="height: 40px;line-height: 40px;font-size: 18px;"></small>
+                                      </div>
+                                      <div class="lg_down_box" style="width:330px;height:100px;">
+                                          <p ng-repeat="row in oneList" title="[[row]]" ng-click="twoChange(row)" style="font-size:14px;">[[row]]</p>
+                                     </div>
+                                  </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--二级基站名称-->
+                      <div class="selectPag1 " style="margin-right:12px;margin-top:0px;">
+                            <span class="selectBtitle1 pull-left">基站名称</span>
+                            <ul class="list-inline prod_size pull-left" style="position: relative;margin-bottom:6px;">
+                                <li style="padding-left:0;padding-right:0;">
+                                  <div class="lg_search_box02" style="width:330px;height:40px;">
+                                      <div class="lg_border_box02" style="width:330px;height:40px;">
+                                          <input type="text" readonly="readonly" id="lg_down_box02" style="width:82%;height:35px;font-size:14px;" ng-model="sAbnTwo">
+                                          <small class="fa fa-unsorted" style="height: 40px;line-height: 40px;font-size: 18px;margin-left: 26px;"></small>
+                                      </div>
+                                       <div class="lg_down_box02" style="width:330px;height:100px;">
+                                          <p ng-repeat="row in twoList" title="[[row]]" ng-click="test()" style="font-size:14px;">[[row]]</p>
+                                     </div>
+                                  </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--三级设备选择-->
+                      <div class="selectPag1 " style="margin-right:12px;margin-top:0px;">
+                            <span class="selectBtitle1 pull-left">设备选择</span>
+                            <ul class="list-inline prod_size pull-left" style="position: relative;margin-bottom:6px;">
+                                <li style="padding-left:0;padding-right:0;">
+                                  <div class="lg_search_box03" style="width:330px;height:40px;">
+                                      <div class="lg_border_box03" style="width:330px;height:40px;">
+                                          <input type="text" readonly="readonly" id="lg_down_box03" style="width:82%;height:35px;font-size:14px;" ng-model="sAbnThere">
+                                          <small class="fa fa-unsorted" style="height: 40px;line-height: 40px;font-size: 18px;margin-left: 26px;"></small>
+                                      </div>
+                                       <div class="lg_down_box03" style="width:330px;height:100px;">
+                                          <p ng-repeat="row in thereList" title="[[row]]" ng-click="fourChange(row)"  style="font-size:14px;">[[row]]</p>
+                                     </div>
+                                  </div>
+                                </li>
+                            </ul>
+                        </div>
+                         <!--四级生产厂家-->
+                      <div class="selectPag1 " style="margin-right:12px;margin-top:0px;">
+                            <span class="selectBtitle1 pull-left">生产厂家</span>
+                            <ul class="list-inline prod_size pull-left" style="position: relative;margin-bottom:6px;">
+                                <li style="padding-left:0;padding-right:0;">
+                                  <div class="lg_search_box04" style="width:330px;height:40px;">
+                                      <div class="lg_border_box04" style="width:330px;height:40px;">
+                                          <input type="text" readonly="readonly" id="lg_down_box04" style="width:82%;height:35px;font-size:14px;" ng-model="cj">
+                                          <small class="fa fa-unsorted" style="height: 40px;line-height: 40px;font-size: 18px;margin-left: 26px;"></small>
+                                      </div>
+                                        <div class="lg_down_box04" style="width:330px;height:100px;">
+                                          <p ng-repeat="row in fourList" title="[[row]]"  ng-click="fourChange(row)" ng-model="cj" style="font-size:14px;">[[row]]</p>
+                                     </div>
+                                  </div>
+                                </li>
+                            </ul>
+                        </div>
+                          <!--五级型号-->
+                       <div class="selectPag1 " style="margin-right:12px;margin-top:0px;">
+                            <span class="selectBtitle1 pull-left">型&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;号</span>
+                            <ul class="list-inline prod_size pull-left" style="position: relative;margin-bottom:6px;">
+                                <li style="padding-left:0;padding-right:0;">
+                                  <div class="lg_search_box05" style="width:330px;height:40px;">
+                                      <div class="lg_border_box05" style="width:330px;height:40px;margin-left:5px;">
+                                          <input type="text" readonly="readonly" id="lg_down_box05" style="width:82%;height:35px;font-size:14px;" ng-model="sAbnFive">
+                                          <small class="fa fa-unsorted" style="height: 40px;line-height: 40px;font-size: 18px;margin-left: 26px;"></small>
+                                      </div>
+                                        <div class="lg_down_box05" style="width:330px;height:100px;margin-left:6px;">
+                                        <p ng-repeat="row in fiveList" title="[[row]]"  ng-click="fiveChange(row)" style="font-size:14px;">[[row]]</p>
+                                     </div>
+                                  </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--六级功率-->
+                         <div class="selectPag1 " style="margin-right:12px;margin-top:0px;">
+                            <span class="selectBtitle1 pull-left">功&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;率</span>
+                            <ul class="list-inline prod_size pull-left" style="position: relative;margin-bottom:6px;">
+                                <li style="padding-left:0;padding-right:0;">
+                                 <div class="lg_search_box06" style="width:330px;height:40px;">
+                                      <div class="lg_border_box06" style="width:330px;height:40px;margin-left:5px;">
+                                        <input type="text" id="lg_down_box06" id="ip_[[$index]]" style="width:82%;height:35px;font-size:14px;" ng-model="sAbnSix" onkeyup="value=value.replace(/[^\d\.]/g,'')" onblur="value=value.replace(/[^\d\.]/g,'')"/>
+                                      </div>
+                                  </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="form-group" style="margin-top:-4px;"> 
+                            <button type="button" id="upload-button" class="btn btn-sm blue filter-cancel" style="margin-top:-8px; margin:0 auto;width:25%;display:block;margin-left:160px;">
+                                <span style="color:#fff;">提交</span>
+                            </button> 
+                        </div>                            
+                    </form> 
+                     </div> 
+                </div>
+            </div>

@@ -1,0 +1,117 @@
+<div class="page-container">
+    <div class="page-content">
+        <div class="container">
+            <div class="fade-in-up"> 
+                <div class="row" style="margin-top:18px;">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="indexModules">
+                            <div class="topTipe">
+                                <p class="headline pull-left">警告</p>
+                                <p class="relevant pull-right">[[emergencyBx]]</p>
+                            </div>
+                            <div class="bottomTipe">
+                                <div class="encase">
+                                    <div class="roundness pull-left" style="background:#ff9800">[[emergencyBx]]</div>
+                                    <div class="roundRight pull-right">
+                                        <p class="sumAmount">[[emergencySum]]</p>
+                                        <p class="reminder">警告总量及占比</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <div class="indexModules">
+                            <div class="topTipe">
+                                <p class="headline pull-left">异常</p>
+                                <p class="relevant pull-right">[[abnormityBx]]</p>
+                            </div>
+                            <div class="bottomTipe">
+                                <div class="encase">
+                                    <div class="roundness pull-left" style="background:#e51c23">[[abnormityBx]]</div>
+                                    <div class="roundRight pull-right">
+                                        <p class="sumAmount">[[abnormitySum]]</p>
+                                        <p class="reminder">异常总量及占比</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" style="padding:0px;">
+                        <div class="indexModules">
+                            <div class="topTipe">
+                                <p class="headline pull-left">正常</p>
+                                <p class="relevant pull-right">[[normalBx]]</p>
+                            </div>
+                            <div class="bottomTipe">
+                                <div class="encase">
+                                    <div class="roundness pull-left" style="background:#259b24">[[normalBx]]</div>
+                                    <div class="roundRight pull-right">
+                                        <p class="sumAmount">[[normalSum]]</p>
+                                        <p class="reminder">正常总量及占比</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="leftMap pull-left">
+                    <div class="mapDescribe">
+                        <p class="mapTitle pull-left">用电异常分布</p>
+                        <div class="mapBut pull-right">
+                            <p class="smallSpot pull-right" ng-click="quehuan">
+                                <b class="smallDot_green point_dot"></b>
+                                <span>正常</span>
+                            </p>
+                             <p class="smallSpot pull-right">
+                                <b class="smallDot_yellow point_dot"></b>
+                                <span>异常</span>
+                            </p>
+                            <p class="smallSpot pull-right">
+                                <b class="smallDot_red point_dot"></b>
+                                <span>警告</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="baiduMap" id="container02"></div>
+                </div>
+                <div class="rightTable pull-right">
+                    <div class="mapDescribe">
+                        <p class="mapTitle pull-left">异常列表TOP10</p>
+                    </div>
+                    <div class="abnormalList" style="padding-left:8px;">
+                        <div class="rightTab">
+                            <div class="singleRow" ng-repeat="row in rightEacharts track by $index" ng-if='$index == 0'>
+                              <p class="pull-left mapDian" ng-repeat="item in row track by $index" ng-if='$index == 0' style="font-weight:700;">[[item]]</p>
+                              <p class="pull-left middleAbn" ng-repeat="item in row track by $index" ng-if='$index == 1' style="font-size:12px;font-weight:700;">[[item]]</p>
+                              <p class="pull-left middleNub" ng-repeat="item in row track by $index" ng-if='$index == 2' style="font-size:12px;font-weight:700;">[[item]]</p>
+                              <p class="pull-left examine" style="font-size:12px;font-weight:700">操作</p>
+                            </div>
+                            <div class="singleRow" ng-repeat="row in rightEacharts track by $index" ng-if='$index != 0'>
+                              <p class="pull-left mapDian" ng-repeat="item in row track by $index" ng-if='$index == 0' title="[[item]]" style="cursor:pointer;font-weight:700;" ng-click="lxMap(item)">[[item]]</p>
+                              <p class="pull-left middleAbn" ng-repeat="item in row track by $index" ng-if='$index == 1' title="[[item]]" style="font-size:12px;">[[item]]</p>
+                              <p class="pull-left middleNub" ng-repeat="item in row track by $index" ng-if='$index == 2' title="[[item]]" style="font-size:12px;">[[item]]</p>
+                              <p class="pull-left examine" >
+                                <a href="#/abnormal" ng-click="record(row)" class="checkA">查看</a>
+                              </p>
+                            </div>
+                            <div class="singleRow hint">
+                                <p ng-click="topTable(1)" class="moreNub">查看更多...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 信息框 -->
+    <div class="message">
+        <p class="titleBox">基站列表:</p>
+        <p class="symbolX">X</p>
+        <div class="buttomXi">
+            <p ng-repeat="row in jiZhanName" title="[[row]]">[[row]]</p>
+        </div>
+    </div>
+</div>

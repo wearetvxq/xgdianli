@@ -1,0 +1,40 @@
+
+    <div class="row">
+    <div class="col-md-12" style="position:relative;">
+        <div class="anniu">
+          <input type="button" name="Submit" value="返回" onclick="javascript:history.back(-1);">
+        </div>
+        <h3 style="height:28px;line-height:28px;font-size:18px;font-weight:700;color:#7B777B;margin:10px 0;" class="xq pull-left">
+            空调管理详情列表&nbsp;&nbsp;&nbsp;&nbsp;                                     
+            <input type="hidden" class="sb" value="空调">
+        </h3>  
+    </div>
+    <!--表格-->
+        <div class="col-md-12">
+            <div class="portlet-body">
+                <table id="datatable-buttons" class="table table-striped table-bordered">
+                    <thead style="background:#ccc;">
+                        <tr>
+                            <th ng-repeat="item in columnText">
+                                <span class="tableSpan">[[item]]</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody style="background:#fff;">
+                        <tr ng-repeat="row in importList"  repeat-finish>
+                            <td ng-repeat="item in row track by $index">
+                                <span class="tableSpan">
+                                <input class="neirong" id="ip_[[$index]]" style="border:none;background:#fff;text-align:center;" disabled="false" ng-model="item"/>
+                                </span>
+                            </td>
+                            <td>
+                                <span class="tableSpan" style="cursor:pointer;">
+                                    <a ng-click="delete(row)" class="checkA">删除</a>
+                                </span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>  

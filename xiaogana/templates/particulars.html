@@ -1,0 +1,87 @@
+<div class="page-container">
+    <div class="page-content" style="padding-top:0;">
+        <div class="container">
+            <div class="fade-in-up"> 
+                <div class="row">
+                <div class="col-md-12" style="position:relative;">
+                 <div class="anniu">
+                     <input type="button" name="Submit" value="返回" onclick="javascript:history.back(-1);">
+                    </div>
+                    <h3 style="height:28px;line-height:28px;font-size:18px;font-weight:700;color:#7B777B;margin:10px 0;" class="pull-left">
+                        偷漏电详情&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span style="font-size:14px;color:#73879C;font-weight:100;">[[baseStation]]</span>
+                    </h3>
+                    <div class="filtrate pull-right" style="margin:10px 0;">
+                        <button type="button" class="btn btn-sm blue filter-cancel htButton" style="margin-top:0px;line-height:14px;font-size:12px;">回填数据</button>
+                    </div>
+                    <div class="formMenu">
+                    	<div class="backfillTitle clearfix">
+                    		<p class="backfillName pull-left">回填基站数据</p>
+                    		<p class="wrong pull-right">X</p>
+                    	</div>
+                    	<div class="backfillFilling clearfix">
+                            <form id="loadForm">
+                        		<div class="inputArea">
+                        			<div class="inputTitle">
+                        				<p class="designation pull-left">基站名称</p>
+                        				<p class="quantity pull-left">日期</p>
+                        				<p class="rateWork pull-left">用电度数</p>
+                        				<p class="expurgate pull-left"></p>
+                        			</div>
+                        			<div class="inputTitleEntity">
+                						<div class="designationBorder">
+                							<input type="text" placeholder="示例：XG-0001">
+                						</div>
+                						<div class="quantityBorder">
+                							<input type="text"  placeholder="2018-01-12">
+                						</div>
+                						<div class="rateWorkBorder">
+                							<input type="text" onkeyup="if(/\D/.test(this.value)){layer.msg('只能输入数字');this.value='';}" placeholder="25">
+                						</div>
+                        			</div>
+                        		</div>
+                        		<div class="present">
+                        			<button type="button" class="btn btn-success btn-s pull-right tiJaoButton">提  交</button>
+                                    <button type="button" class="btn btn-sm blue filter-cancel pull-right addButton">增加一行</button>
+                        		</div>
+                            </form>
+                    	</div>
+                    	<div class="backfillList clearfix">
+                    		<p class="nextTitle">回填基站列表</p>
+                    		<div class="specific">
+                    			<div class="perLine">
+                    				<p class="blockA pull-left">基站名称</p>
+                    				<p class="blockB pull-left">日期</p>
+                    				<p class="blockC pull-left">用电度数</p>
+                    				<p class="blockD pull-left">操作</p>
+                    			</div>
+                    			<div class="exhibition" ng-repeat="row in htList">
+                                    <input class="idName pull-left" ng-repeat="item in row track by $index" ng-if='$index == 0' ng-show="false" title="[[item]]" value="[[item]]" disabled="true">
+                    				<input class="sheBeiName pull-left" ng-repeat="item in row track by $index" ng-if='$index == 1' title="[[item]]" value="[[item]]" disabled="true">
+                    				<input class="sheBeiNub pull-left" ng-repeat="item in row track by $index" ng-if='$index == 2' title="[[item]]" value="[[item]]" disabled="true">
+                    				<input class="sheBeiGl pull-left" ng-repeat="item in row track by $index" ng-if='$index == 3' title="[[item]]" value="[[item]]" disabled="true">
+                    				<p class="sheBeiCz pull-left">
+                                        <span class="compile">编辑</span>
+                                        <span class="expurgate" ng-click="shanChu(row)">删除</span>
+                                        <span class="putIn">提交</span>
+                                        <span class="revocation">取消</span>
+                                    </p>
+                    			</div>
+                    		</div>
+                    	</div>
+                    </div>          
+                </div>
+                <div class="col-md-12">
+                    <div class="portlet-body">
+                    	<p style="margin:10px 0;color:red;">[[handlingMethod]]</p>
+                    	<div class="row ycxq">
+                            <div style="height:100%;width:100%" id="forecastLine"></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+<!--         <div class="anniu"><a href="javascript:history.back(-1)">返回</a></div> -->
+    </div>
+</div>

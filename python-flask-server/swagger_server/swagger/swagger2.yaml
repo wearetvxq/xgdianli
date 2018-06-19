@@ -1,0 +1,3400 @@
+  /statistics/list:
+    get:
+      tags:
+        - statistics
+      summary: statistics list
+      description: statistics list
+      operationId: get_statistics_list
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters: []
+      responses:
+        '200':
+          description: return status
+          schema:
+            $ref: '#/definitions/Product'
+        '500':
+          description: return status
+          schema:
+            $ref: '#/definitions/success'
+      x-swagger-router-controller: swagger_server.controllers.xgdl_statistics
+
+  /statistics/chart:
+    get:
+      tags:
+        - statistics
+      summary: statistics list
+      description: statistics list
+      operationId: get_statistics_chart
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters: []
+      responses:
+        '200':
+          description: return status
+          schema:
+            $ref: '#/definitions/Product'
+        '500':
+          description: return status
+          schema:
+            $ref: '#/definitions/success'
+      x-swagger-router-controller: swagger_server.controllers.xgdl_statistics
+
+  /statistics/list/{id}:
+    get:
+      tags:
+        - statistics
+      summary: statistics list
+      description: statistics list
+      operationId: get_statistics_info
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          description: data
+          type: sting
+          required: true
+      responses:
+        '200':
+          description: return status
+          schema:
+            $ref: '#/definitions/Product'
+        '500':
+          description: return status
+          schema:
+            $ref: '#/definitions/success'
+      x-swagger-router-controller: swagger_server.controllers.xgdl_statistics
+
+  /statistics/reading:
+    get:
+      tags:
+        - statistics
+      summary: statistics list
+      description: statistics list
+      operationId: get_statistics_reading
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: query
+          name: starttime
+          description: starttime
+          type: sting
+          required: false
+        - in: query
+          name: endtime
+          description: endtime
+          type: sting
+          required: false
+        - in: query
+          name: area
+          description: area
+          type: sting
+          required: false
+        - in: query
+          name: name
+          description: name
+          type: sting
+          required: false
+        - in: query
+          name: type
+          description: type
+          type: sting
+          required: false
+        - in: query
+          name: tower
+          description: tower
+          type: sting
+          required: false
+        - in: query
+          name: desc
+          description: desc
+          type: sting
+          required: false
+      responses:
+        '200':
+          description: return status
+          schema:
+            $ref: '#/definitions/Product'
+        '500':
+          description: return status
+          schema:
+            $ref: '#/definitions/success'
+      x-swagger-router-controller: swagger_server.controllers.xgdl_statistics
+
+  /statistics/reading/export:
+    get:
+      tags:
+        - statistics
+      summary: statistics list
+      description: statistics list
+      operationId: get_statistics_reading_export
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: query
+          name: starttime
+          description: starttime
+          type: sting
+          required: false
+        - in: query
+          name: endtime
+          description: endtime
+          type: sting
+          required: false
+        - in: query
+          name: area
+          description: area
+          type: sting
+          required: false
+        - in: query
+          name: name
+          description: name
+          type: sting
+          required: false
+        - in: query
+          name: type
+          description: type
+          type: sting
+          required: false
+        - in: query
+          name: tower
+          description: tower
+          type: sting
+          required: false
+        - in: query
+          name: desc
+          description: desc
+          type: sting
+          required: false
+      responses:
+        '200':
+          description: return status
+          schema:
+            $ref: '#/definitions/Product'
+        '500':
+          description: return status
+          schema:
+            $ref: '#/definitions/success'
+      x-swagger-router-controller: swagger_server.controllers.xgdl_statistics
+
+  /statistcs/inventory/{id}:
+    get:
+      tags:
+        - statistics
+      summary: statistics list
+      description: statistics list
+      operationId: get_statistics_inventory
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: id
+          description: id
+          type: sting
+          required: true
+        - in: query
+          name: page
+          description: starttime
+          type: sting
+          required: true
+        - in: query
+          name: size
+          description: endtime
+          type: sting
+          required: true
+        - in: query
+          name: starttime
+          description: starttime
+          type: sting
+          required: false
+        - in: query
+          name: endtime
+          description: endtime
+          type: sting
+          required: false
+        - in: query
+          name: area
+          description: area
+          type: sting
+          required: false
+        - in: query
+          name: produce
+          description: area
+          type: sting
+          required: false
+        - in: query
+          name: cap
+          description: area
+          type: sting
+          required: false
+        - in: query
+          name: name
+          description: name
+          type: sting
+          required: false
+        - in: query
+          name: type
+          description: type
+          type: sting
+          required: false
+        - in: query
+          name: tower
+          description: tower
+          type: sting
+          required: false
+        - in: query
+          name: desc
+          description: desc
+          type: sting
+          required: false
+      responses:
+        '200':
+          description: return status
+          schema:
+            $ref: '#/definitions/Product'
+        '500':
+          description: return status
+          schema:
+            $ref: '#/definitions/success'
+      x-swagger-router-controller: swagger_server.controllers.xgdl_statistics
+
+  /statistcs/tower:
+    get:
+      tags:
+        - statistics
+      summary: statistics list
+      description: statistics list
+      operationId: get_statistics_tower
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: query
+          name: starttime
+          description: starttime
+          type: sting
+          required: false
+        - in: query
+          name: endtime
+          description: endtime
+          type: sting
+          required: false
+        - in: query
+          name: area
+          description: area
+          type: sting
+          required: false
+        - in: query
+          name: page
+          description: page
+          type: sting
+          required: true
+        - in: query
+          name: size
+          description: size
+          type: sting
+          required: true
+      responses:
+        '200':
+          description: return status
+          schema:
+            $ref: '#/definitions/Product'
+        '500':
+          description: return status
+          schema:
+            $ref: '#/definitions/success'
+      x-swagger-router-controller: swagger_server.controllers.xgdl_statistics
+---
+swagger: "2.0"
+info:
+  description: "The API zhoushan_electric"
+  version: "0.0.1"
+  title: "zhoushan API"
+host: "api.zhoushan.com"     #
+basePath: "/xiaogan"     #原始路径
+schemes:     #方案
+- "https"
+produces:   #产品
+- "application/json"
+paths:
+# 测试用
+# ------------测试----------
+  /test:
+    post:
+      tags:
+      - "test"
+      summary: "get the test data"
+      description: "get the test data"
+      operationId: "test"
+      parameters:
+      - name: "arg1"
+        in: "formData"
+        description: "the arg1 of user"
+        required: true
+        type: "string"
+      - name: "arg2"
+        in: "formData"
+        description: "the arg2 of user"
+        required: false
+        type: "integer"
+      responses:
+        200:
+          description: "test"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.test"
+# ----------------------------------------
+# ------------测试----------
+  /function_1:
+    get:
+      tags:
+      - "function_1"
+      summary: "get the function_1 data"
+      description: "get the function_1 data"
+      operationId: "function_1"
+      parameters: []
+      responses:
+        200:
+          description: "function_1"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.test"
+# ----------------------------------------
+
+  /insert_city:
+    post:
+      tags:
+      - "insert_city"
+      summary: "get the insert_city data"
+      description: "get the insert_city data"
+      operationId: "insert_city"
+      parameters: []
+      responses:
+        200:
+          description: "insert_city"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.test2"
+# ----------------------------------------
+
+
+  /insert_met_reader:
+    post:
+      tags:
+      - "insert_met_reader"
+      summary: "get the insert_met_reader data"
+      description: "get the insert_met_reader data"
+      operationId: "insert_met_reader"
+      parameters: []
+      responses:
+        200:
+          description: "insert_met_reader"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.test2"
+# ----------------------------------------
+
+  /city_sta:
+    post:
+      tags:
+      - "city_sta"
+      summary: "get the city_sta data"
+      description: "get the city_sta data"
+      operationId: "city_sta"
+      parameters: []
+      responses:
+        200:
+          description: "city_sta"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.test2"
+# ----------------------------------------
+
+
+#####能耗稽核页面#########################
+# ---------------# 1、稽核拆分-------------------------
+  /ways_audit:
+    post:
+      tags:
+      - "ways_audit"
+      summary: "get the ways_audit data"
+      description: "get the ways_audit data"
+      operationId: "ways_audit"
+      parameters:
+      - name: "energy_way"
+        in: "formData"
+        description: "the energy_way of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "ways_audit"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_audit"
+# ----------------------------------------
+
+# ---------------# 1.0 预测颗粒度-------------------------
+  /ammeter_and_station_1:
+    post:
+      tags:
+      - "ammeter_and_station_1"
+      summary: "get the ammeter_and_station_1 data"
+      description: "get the ammeter_and_station_1 data"
+      operationId: "ammeter_and_station_1"
+      parameters: []
+      responses:
+        200:
+          description: "ammeter_and_station_1"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_audit"
+
+# ---------------# 1.1、根据基站获取开始时间和结束时间-------------------------
+  /get_sta_end_time:
+    post:
+      tags:
+      - "get_sta_end_time"
+      summary: "get the get_sta_end_time data"
+      description: "get the get_sta_end_time data"
+      operationId: "get_sta_end_time"
+      parameters:
+      - name: "veidoo"
+        in: "formData"
+        description: "the veidoo of user"
+        required: true
+        type: "string"
+      - name: "station_name"
+        in: "formData"
+        description: "the station_name of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_sta_end_time"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_audit"
+# ----------------------------------------
+
+# ---------------# 2、获取所有基站列表-------------------------
+  /get_station_list:
+    post:
+      tags:
+      - "get_station_list"
+      summary: "get the get_station_list data"
+      description: "get the get_station_list data"
+      operationId: "get_station_list"
+      parameters:
+      - name: "veidoo"
+        in: "formData"
+        description: "the veidoo of user"
+        required: true
+        type: "string"
+      - name: "ways_audit"
+        in: "formData"
+        description: "the ways_audit of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_station_list"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_audit"
+# ----------------------------------------
+
+# ---------------# 2、不同稽核方式的子方式-------------------------
+  /ways_audit_child:
+    post:
+      tags:
+      - "ways_audit_child"
+      summary: "get the ways_audit_child data"
+      description: "get the ways_audit_child data"
+      operationId: "ways_audit_child"
+      parameters:
+      - name: "ways_audit"
+        in: "formData"
+        description: "the ways_audit of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "ways_audit_child"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_audit"
+# ----------------------------------------
+
+# ---------------# 3、图表数据-------------------------
+  /get_data_energy_audit:
+    post:
+      tags:
+      - "get_data_energy_audit"
+      summary: "get the get_data_energy_audit data"
+      description: "get the get_data_energy_audit data"
+      operationId: "get_data_energy_audit"
+      parameters:
+      - name: "veidoo"
+        in: "formData"
+        description: "the veidoo of user"
+        required: true
+        type: "string"
+      - name: "station_name"
+        in: "formData"
+        description: "the station_name of user"
+        required: false
+        type: "string"
+      - name: "energy_way"
+        in: "formData"
+        description: "the energy_way of user"
+        required: true
+        type: "string"
+      - name: "ways_audit"
+        in: "formData"
+        description: "the ways_audit of user"
+        required: true
+        type: "string"
+      - name: "ways_audit_child"
+        in: "formData"
+        description: "the ways_audit_child of user"
+        required: true
+        type: "string"
+      - name: "StartDate"
+        in: "formData"
+        description: "the StartDate of user"
+        required: false
+        type: "string"
+      - name: "EndDate"
+        in: "formData"
+        description: "the EndDate of user"
+        required: false
+        type: "string"
+      - name: "PageIndex"
+        in: "formData"
+        description: "the PageIndex of user"
+        required: false
+        type: "integer"
+      responses:
+        200:
+          description: "get_data_energy_audit"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_audit"
+# ----------------------------------------
+
+#########################首页#########################
+
+# ---------------# 1.获取首页地图坐标。-------------------------
+  /count_warning:
+    post:
+      tags:
+      - "count_warning"
+      summary: "get the count_warning data"
+      description: "get the count_warning data"
+      operationId: "count_warning"
+      parameters: []
+      responses:
+        200:
+          description: "count_warning"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_home"
+
+# ---------------# 1.获取首页地图坐标。-------------------------
+  /get_xy:
+    post:
+      tags:
+      - "get_xy"
+      summary: "get the get_xy data"
+      description: "get the get_xy data"
+      operationId: "get_xy"
+      parameters:
+      - name: "colour"
+        in: "formData"
+        description: "the colour of user"
+        required: false
+        type: "string"
+      - name: "sta_no"
+        in: "formData"
+        description: "the sta_no of user"
+        required: false
+        type: "string"
+      - name: "choose_city"
+        in: "formData"
+        description: "the choose_city of user"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "get_xy"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_home"
+
+# ---------------# 1.获取首页地图坐标。-------------------------
+  /sta_name_list:
+    post:
+      tags:
+      - "sta_name_list"
+      summary: "get the sta_name_list data"
+      description: "get the sta_name_list data"
+      operationId: "sta_name_list"
+      parameters:
+      - name: "x"
+        in: "formData"
+        description: "the x of user"
+        required: true
+        type: "string"
+      - name: "y"
+        in: "formData"
+        description: "the y of user"
+        required: true
+        type: "string"
+      - name: "choose_city"
+        in: "formData"
+        description: "the choose_city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "sta_name_list"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_home"
+
+
+
+# ---------------# 2.基站展示列表。-------------------------
+  /sta_list_top10:
+    post:
+      tags:
+      - "sta_list_top10"
+      summary: "get the sta_list_top10 data"
+      description: "get the sta_list_top10 data"
+      operationId: "sta_list_top10"
+      parameters:
+      - name: "more"
+        in: "formData"
+        description: "the more of user"
+        required: false
+        type: "string"
+      - name: "choose_city"
+        in: "formData"
+        description: "the choose_city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "sta_list_top10"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_home"
+
+# ---------------# 3.基站展示详情。-------------------------
+  /sta_details:
+    post:
+      tags:
+      - "sta_details"
+      summary: "get the sta_details data"
+      description: "get the sta_details data"
+      operationId: "sta_details"
+      parameters:
+      - name: "sta_no"
+        in: "formData"
+        description: "the sta_no of user"
+        required: true
+        type: "string"
+      - name: "err_type"
+        in: "formData"
+        description: "the err_type of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "sta_details"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_home"
+
+# ---------------# 基站设备数据展示-------------------------
+  /sta_data_show:
+    post:
+      tags:
+      - "sta_data_show"
+      summary: "get the sta_data_show data"
+      description: "get the sta_data_show data"
+      operationId: "sta_data_show"
+      parameters:
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "sta_data_show"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_home"
+
+# ---------------# 基站设备数据插入-------------------------
+  /dev_data_insert:
+    post:
+      tags:
+      - "sta_data_show"
+      summary: "get the dev_data_insert data"
+      description: "get the dev_data_insert data"
+      operationId: "dev_data_insert"
+      parameters:
+#      - name: "array"
+#        in: "formData"
+#        description: "the array of user"
+#        required: true
+#        type: "string"
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      - name: "dev_name"
+        in: "formData"
+        description: "the dev_name of user"
+        required: true
+        type: "string"
+      - name: "count"
+        in: "formData"
+        description: "the count of user"
+        required: true
+        type: "string"
+      - name: "power"
+        in: "formData"
+        description: "the power of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "dev_data_insert"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_home"
+
+# ---------------# 设备删除-------------------------
+  /del_device:
+    post:
+      tags:
+      - "sta_data_show"
+      summary: "get the del_device data"
+      description: "get the del_device data"
+      operationId: "del_device"
+      parameters:
+      - name: "id"
+        in: "formData"
+        description: "the id of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "del_device"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_home"
+
+# ---------------# 设备编辑-------------------------
+  /edit_devices:
+    post:
+      tags:
+      - "edit_devices"
+      summary: "get the edit_devices data"
+      description: "get the edit_devices data"
+      operationId: "edit_devices"
+      parameters:
+      - name: "id"
+        in: "formData"
+        description: "the id of user"
+        required: true
+        type: "string"
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      - name: "dev_name"
+        in: "formData"
+        description: "the dev_name of user"
+        required: false
+        type: "string"
+      - name: "count"
+        in: "formData"
+        description: "the count of user"
+        required: false
+        type: "string"
+      - name: "power"
+        in: "formData"
+        description: "the power of user"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "edit_devices"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_home"
+#-------------------------------------------------------------------------
+
+
+#跳变异常页面###############################################3
+
+
+# ---------------# 1.跳变异常数量-------------------------
+  /jump_err_count:
+    post:
+      tags:
+      - "jump_err_count"
+      summary: "get the jump_err_count data"
+      description: "get the jump_err_count data"
+      operationId: "jump_err_count"
+      parameters:
+      - name: "choose_city"
+        in: "formData"
+        description: "the choose_city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "jump_err_count"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_voltage_low"
+
+
+
+# ---------------# 1.跳变异常 对应的城市-------------------------
+  /city_voltage_jump:
+    post:
+      tags:
+      - "city_voltage_jump"
+      summary: "get the city_voltage_jump data"
+      description: "get the city_voltage_jump data"
+      operationId: "city_voltage_jump"
+      parameters:
+      - name: "choose_city"
+        in: "formData"
+        description: "the choose_city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "city_voltage_jump"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_voltage_low"
+
+#跳变异常的表格
+  /table_jump_err:
+      post:
+        tags:
+        - "table_jump_err"
+        summary: "get the table_jump_err data"
+        description: "get the table_jump_err data"
+        operationId: "table_jump_err"
+        parameters:
+        - name: "city"
+          in: "formData"
+          description: "the city of user"
+          required: true
+          type: "string"
+        - name: "PageIndex"
+          in: "formData"
+          description: "the PageIndex of user"
+          required: true
+          type: "integer"
+        responses:
+          200:
+            description: "table_jump_err"
+            schema:
+              $ref: "#/definitions/Product"
+          default:
+            description: "Unexpected error"
+            schema:
+              $ref: "#/definitions/Product"
+        x-swagger-router-controller: "swagger_server.controllers.xgdl_voltage_low"
+
+
+
+#########################################设备管理页面################################
+#-----------------------#1.设备管理地区搜索-----------------------
+  /city_device_management:
+    post:
+      tags:
+      - "city_device_management"
+      summary: "get the city_device_management data"
+      description: "get the city_device_management data"
+      operationId: "city_device_management"
+      parameters:
+      - name: "choose_city"
+        in: "formData"
+        description: "the city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "city_device_management"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_room_list"
+  #设备基站选择
+  /sta_device_management:
+    post:
+      tags:
+      - "sta_device_management"
+      summary: "get the sta_device_management data"
+      description: "get the sta_device_management data"
+      operationId: "sta_device_management"
+      parameters:
+      - name: "choose_city"
+        in: "formData"
+        description: "the city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "sta_device_management"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_room_list"
+
+  #基站table信息
+  /room_table_list:
+    post:
+      tags:
+      - "room_table_list"
+      summary: "get the room_table_list data"
+      description: "get the room_table_list data"
+      operationId: "room_table_list"
+      parameters:
+      - name: "choose_sta"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      - name: "choose_city"
+        in: "formData"
+        description: "the city_name of user"
+        required: true
+        type: "string"
+      - name : "sort"
+        in: "formData"
+        description: "the sort of user"
+        type: "string"
+      - name : "sort_air"
+        in: "formData"
+        description: "the sort of user"
+        type: "string"
+      - name: "PageIndex"
+        in: "formData"
+        description: "the PageIndex of user"
+        required: true
+        type: "integer"
+      responses:
+        200:
+          description: "table_device_management"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_room_list"
+  #基站空调对比
+  /air_duibi_table:
+    post:
+      tags:
+      - "air_duibi_table"
+      summary: "get the air_duibi_table data"
+      description: "get the air_duibi_table data"
+      operationId: "air_duibi_table"
+      parameters:
+      - name: "choose_sta1"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      - name: "choose_sta2"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "air_duibi_table"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_room_list"
+  #能耗折线图信息
+  /room_desc_show:
+    post:
+      tags:
+      - "room_desc_show"
+      summary: "get the room_desc_show data"
+      description: "get the room_desc_data_show data"
+      operationId: "room_desc_show"
+      parameters:
+      - name: "choose_sta"
+        in: "formData"
+        description: "the usr choose sta"
+        type: "string"
+      responses:
+        200:
+          description: "room_desc_show"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_room_list"
+######数据管理-----子页面---空调管理#####
+  /table_device_management_chm:
+    post:
+      tags:
+      - "table_device_management_chm"
+      summary: "get the table_device_management_chm date"
+      description: "get the table_device_management_chm data"
+      operationId: "table_device_management_chm"
+      parameters:
+      - name: "choose_city"
+        in: "formData"
+        description: "the usr choose city"
+        type: "string"
+      - name: "sta_name"
+        in: "formData"
+        description: "the usr choose sta"
+        type: "string"
+      - name: "PageIndex"
+        in: "formData"
+        description: "the PageIndex choose sta"
+        type: "integer"
+      responses:
+        200:
+          description: "table_device_management_chm"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_device_management"
+  #机房管理接口
+  /room_device_table_list:
+    post:
+      tags:
+      - "room_device_table_list"
+      summary: "get the room_device_table_list date"
+      description: "get the room_device_table_list data"
+      operationId: "room_device_table_list"
+      parameters:
+      - name: "choose_city"
+        in: "formData"
+        description: "the usr choose city"
+        type: "string"
+      - name: "PageIndex"
+        in: "formData"
+        description: "the PageIndex choose sta"
+        type: "integer"
+      responses:
+        200:
+          description: "room_device_table_list"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_device_management"
+
+  /table_device_desc:
+    post:
+      tags:
+      - "table_device_desc"
+      summary: "get the table_device_desc date"
+      description: "get the table_device_desc data"
+      operationId: "table_device_desc"
+      parameters:
+      - name: "sta_name"
+        in: "formData"
+        description: "the usr choose sta"
+        type: "string"
+      - name: "type"
+        in: "formData"
+        description: "the type choose sta"
+        type: "string"
+      responses:
+        200:
+          description: "table_device_desc"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_device_management"
+  #机房设备管理表接口
+  /table_device_desc_sb:
+    post:
+      tags:
+      - "table_device_desc_sb"
+      summary: "get the table_device_desc_sb date"
+      description: "get the table_device_desc_sb data"
+      operationId: "table_device_desc_sb"
+      parameters:
+      - name: "sta_name"
+        in: "formData"
+        description: "the usr choose sta"
+        type: "string"
+      - name: "PageIndex"
+        in: "formData"
+        description: "the num of  PageIndex"
+        type: "integer"
+      responses:
+        200:
+          description: "table_device_desc_sb"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_device_management"
+  #机房管理删除接口
+  /device_remove:
+    post:
+      tags:
+      - "device_remove"
+      summary: "get the device_remove date"
+      description: "get the device_remove data"
+      operationId: "device_remove"
+      parameters:
+      - name: "choose_sta"
+        in: "formData"
+        description: "the usr choose sta"
+        type: "string"
+        required: true
+      - name: "device_pow"
+        in: "formData"
+        description: "the usr choose device_pow"
+        type: "string"
+        required: true
+      - name: "sb_type"
+        in: "formData"
+        description: "the usr choose sb_type"
+        type: "string"
+        required: true
+      - name: "device_type"
+        in: "formData"
+        description: "the usr choose device_type"
+        type: "string"
+        required: true
+      - name: "produce"
+        required: true
+        in: "formData"
+        description: "the usr choose device_type"
+        type: "string"
+      responses:
+        200:
+          description: "device_remove"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_device_management"
+  #批量导入设备选择
+  /choose_sb:
+    get:
+      tags:
+      - "choose_sb"
+      summary: "get the choose_sb date"
+      description: "get the choose_sb data"
+      operationId: "choose_sb"
+      responses:
+        200:
+          description: "choose_sb"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_device_management"
+  #批量导入设备接口
+  /write_sb:
+    post:
+      tags:
+      - "write_sb"
+      summary: "insert into mysql"
+      description: "get the write_sb"
+      operationId: "write_sb"
+      parameters:
+      - name: "city_list"
+        in: "formData"
+        description: "the city_list"
+        required: true
+        type: "string"
+      - name: "area_list"
+        in: "formData"
+        description: "the area_list"
+        required: true
+        type: "string"
+      - name: "sta_list"
+        in: "formData"
+        description: "the sta_list"
+        required: true
+        type: "string"
+      - name: "type_list"
+        in: "formData"
+        description: "the type_list"
+        required: true
+        type: "string"
+      - name: "pow_list"
+        in: "formData"
+        description: "the pow_list"
+        required: true
+        type: "string"
+      - name: "produce_list"
+        in: "formData"
+        description: "the produce_list"
+        required: true
+        type: "string"
+      - name: "sb_type"
+        in: "formData"
+        description: "the usr choose_type"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "write_sb"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_device_management"
+  /write_show:
+    get:
+      tags:
+      - "write_show"
+      summary: "get the write_show data"
+      description: "get the write_show data"
+      operationId: "write_show"
+      responses:
+        200:
+          description: "write_show"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_device_management"
+  /del_write:
+    post:
+      tags:
+      - "del_write"
+      summary: "del the write_show data"
+      description: "del the write_show data"
+      operationId: "del_write"
+      parameters:
+      - name: "id"
+        type: "string"
+        in: "formData"
+        description: "the usr choose id"
+        required: true
+      responses:
+        200:
+          description: "del_write"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_device_management"
+
+
+
+
+
+
+######数据管理-----子页面---单独添加设备#####
+#地区选择
+  /add_one_city:
+    get:
+      tags:
+      - "sta_device_management"
+      summary: "get the add_one_city data"
+      description: "get the add_one_city data"
+      operationId: "add_one_city"
+      responses:
+        200:
+          description: "add_one_city"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_adddevice_more"
+  #生产厂家
+  /air_add_produce_make:
+    post:
+      tags:
+      - "air_add_produce_make"
+      summary: "get the air_add_produce_make data"
+      description: "get the air_add_produce_make data"
+      operationId: "air_add_produce_make"
+      parameters:
+      - name: "choose_type"
+        in: "formData"
+        description: "the type of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "air_add_produce_make"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_adddevice_more"
+  #基站名称
+  /add_sta_name:
+    post:
+      tags:
+      -  "add_sta_name"
+      summary: "get the add_sta_name data"
+      description: "get the add_sta_name data"
+      operationId: "add_sta_name"
+      parameters:
+      - name: "choose_city"
+        in: "formData"
+        description: "the city of user"
+        required: true
+        type: "string"
+      responses:
+          200:
+            description: "add_sta_name"
+            schema:
+              $ref: "#/definitions/Product"
+          default:
+            description: "Unexpected error"
+            schema:
+              $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_adddevice_more"
+
+  #空调设备型号
+  /air_type:
+    post:
+      tags:
+      - "air_type"
+      summary: "get air_type data"
+      description: " get the air_type data"
+      operationId: "air_type"
+      parameters:
+      - name: "choose_air"
+        in: "formData"
+        description: "the city of user"
+        required: true
+        type: "string"
+      - name: "produce"
+        in: "formData"
+        description: "the produce of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "air_type"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_adddevice_more"
+
+  #单独导入提交按钮
+  /add_one_import:
+    post:
+      tags:
+      - "add_one_import"
+      summary: "get the add_one_import data"
+      description: "get the add_one_import data"
+      operationId: "add_one_import"
+      parameters:
+      - name: "choose_sta"
+        in: "formData"
+        description: "the choose_sta of user"
+        required: true
+        type: "string"
+      - name: "choose_device"
+        in: "formData"
+        description: "the choose_device of user"
+        required: true
+        type: "string"
+      - name: "choose_product"
+        in: "formData"
+        description: "the choose_product of user"
+        required: true
+        type: "string"
+      - name: "choose_type"
+        in: "formData"
+        description: "the choose_type of user"
+        required: true
+        type: "string"
+      - name: "choose_pow"
+        in: "formData"
+        description: "the choose_pow of user"
+        required: true
+        type: "string"
+      - name: "choose_area"
+        in: "formData"
+        description: "the choose_area of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "add_one_import"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_adddevice_more"
+
+
+#########################能耗分析-机房列表页面############
+  /one_room_desc:
+    post:
+      tags:
+      - "one_room_desc"
+      summary: "get the one_room_desc data"
+      description: "get the one_room_desc data"
+      operationId: "one_room_desc"
+      parameters:
+      - name: "choose_sta"
+        in: "formData"
+        description: "the one_room_desc data"
+        required: true
+        type: "string"
+      - name: "sta_pow"
+        in: "formData"
+        description: "the sta_pow data"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "one_room_desc"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_room_list"
+#修改接口
+  /update_room_desc:
+    post:
+      tags:
+      - "update_room_desc"
+      summary : "get the update_room_desc"
+      description : "get the update_room_desc"
+      operationId : "update_room_desc"
+      parameters:
+      - name : "old_produce"
+        in : "formData"
+        type : "string"
+        description : "the user choose old_produce"
+        required : true
+      - name : "old_type"
+        in : "formData"
+        type : "string"
+        description : "the user choose old_type"
+        required : true
+      - name : "old_pow"
+        in : "formData"
+        type : "string"
+        description : "the user choose old_pow"
+        required : true
+      - name : "new_produce"
+        in : "formData"
+        type : "string"
+        description : "the user choose new_produce"
+        required : true
+      - name : "new_type"
+        in : "formData"
+        type : "string"
+        description : "the user choose new_type"
+        required : true
+      - name : "new_pow"
+        in : "formData"
+        type : "string"
+        description : "the user choose new_pow"
+        required : true
+      - name : "sb"
+        in : "formData"
+        type : "string"
+        description : "the user choose sb"
+        required : true
+      - name : "choose_sta"
+        in : "formData"
+        type : "string"
+        description : "the user choose choose_sta"
+        required : true
+      responses:
+        200:
+          description: "update_room_desc"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_room_list"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+######能耗预测############################
+# ---------------# 1.预警页面city 列表-------------------------
+  /pre_city:
+    post:
+      tags:
+      - "pre_city"
+      summary: "get the pre_city data"
+      description: "get the pre_city data"
+      operationId: "pre_city"
+      parameters:
+      - name: "choose_city"
+        in: "formData"
+        description: "the choose_city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "pre_city"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_power_pre"
+
+# ---------------# 2.预测页面sta 列表-------------------------
+  /pre_sta_list:
+    post:
+      tags:
+      - "pre_sta_list"
+      summary: "get the pre_sta_list data"
+      description: "get the pre_sta_list data"
+      operationId: "pre_sta_list"
+      parameters:
+      - name: "city"
+        in: "formData"
+        description: "the city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "pre_sta_list"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_power_pre"
+
+
+# ---------------# 3.预警页面time 列表-------------------------
+  /pre_time_list:
+    post:
+      tags:
+      - "pre_time_list"
+      summary: "get the pre_time_list data"
+      description: "get the pre_time_list data"
+      operationId: "pre_time_list"
+      parameters:
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "pre_time_list"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_power_pre"
+
+# ---------------# 3.预测页面 图表-------------------------
+  /pre_chart:
+    post:
+      tags:
+      - "pre_chart"
+      summary: "get the pre_chart data"
+      description: "get the pre_chart data"
+      operationId: "pre_chart"
+      parameters:
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      - name: "StartDate"
+        in: "formData"
+        description: "the StartDate of user"
+        required: true
+        type: "string"
+      - name: "EndDate"
+        in: "formData"
+        description: "the EndDate of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "pre_chart"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_power_pre"
+
+
+
+#####同站对比页面#########################
+# ---------------# 1.预测方式-------------------------
+  /get_com_sta:
+    post:
+      tags:
+      - "get_com_sta"
+      summary: "get the get_com_sta data"
+      description: "get the get_com_sta data"
+      operationId: "get_com_sta"
+      parameters:
+      - name: "choose_city"
+        in: "formData"
+        description: "the choose_city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "predict_method"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_same_sta_cmp"
+
+# ---------------# 2.根据基站获取开始时间和结束时间。-------------------------
+  /get_sta_end:
+    post:
+      tags:
+      - "get_sta_end"
+      summary: "get the get_sta_end data"
+      description: "get the get_sta_end data"
+      operationId: "get_sta_end"
+      parameters:
+      - name: "station_name"
+        in: "formData"
+        description: "the station_name of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_sta_end"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_same_sta_cmp"
+
+# ---------------# 2.划出电力和移动的用电折线图-------------------------
+  /get_elc_line_chart:
+    post:
+      tags:
+      - "get_elc_line_chart"
+      summary: "get the get_elc_line_chart data"
+      description: "get the get_elc_line_chart data"
+      operationId: "get_elc_line_chart"
+      parameters:
+      - name: "sta"
+        in: "formData"
+        description: "the sta of user"
+        required: true
+        type: "string"
+      - name: "StartDate"
+        in: "formData"
+        description: "the StartDate of user"
+        required: true
+        type: "string"
+      - name: "EndDate"
+        in: "formData"
+        description: "the EndDate of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_elc_line_chart"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_same_sta_cmp"
+
+
+
+
+#########聚类对比页面#####################
+# ---------------# 1.获取所有聚类列表-------------------------
+  /get_high_low_vol_1:
+    post:
+      tags:
+      - "get_high_low_vol_1"
+      summary: "get the get_high_low_vol_1 data"
+      description: "get the get_high_low_vol_1 data"
+      operationId: "get_high_low_vol_1"
+      parameters: []
+      responses:
+        200:
+          description: "get_high_low_vol_1"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_cluster_cmp"
+
+
+# ---------------# 1.获取所有聚类列表-------------------------
+  /cluster_list:
+    post:
+      tags:
+      - "cluster_list"
+      summary: "get the cluster_list data"
+      description: "get the cluster_list data"
+      operationId: "cluster_list"
+      parameters:
+      - name: "high_low_vol"
+        in: "formData"
+        description: "the high_low_vol of user"
+        required: true
+        type: "string"
+      - name: "choose_city"
+        in: "formData"
+        description: "the choose_city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "cluster_list"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_cluster_cmp"
+
+# ---------------# 2.获取所有的时间列表-------------------------
+  /get_time_by_cluster:
+    post:
+      tags:
+      - "get_time_by_cluster"
+      summary: "get the get_time_by_cluster data"
+      description: "get the get_time_by_cluster data"
+      operationId: "get_time_by_cluster"
+      parameters:
+      - name: "cluster_name"
+        in: "formData"
+        description: "the cluster_name of user"
+        required: true
+        type: "string"
+      - name: "high_low_vol"
+        in: "formData"
+        description: "the high_low_vol of user"
+        required: true
+        type: "string"
+      - name: "choose_city"
+        in: "formData"
+        description: "the choose_city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_time_by_cluster"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_cluster_cmp"
+
+# ---------------# 3.聚类展示-------------------------
+  /cluster_show:
+    post:
+      tags:
+      - "cluster_show"
+      summary: "get the cluster_show data"
+      description: "get the cluster_show data"
+      operationId: "cluster_show"
+      parameters:
+      - name: "cluster_name"
+        in: "formData"
+        description: "the cluster_name of user"
+        required: true
+        type: "string"
+      - name: "select_month"
+        in: "formData"
+        description: "the select_month of user"
+        required: true
+        type: "string"
+      - name: "high_low_vol"
+        in: "formData"
+        description: "the high_low_vol of user"
+        required: true
+        type: "string"
+      - name: "choose_city"
+        in: "formData"
+        description: "the choose_city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "cluster_show"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_cluster_cmp"
+
+# ---------------# 4.聚类结果集-------------------------
+  /cluster_details:
+    post:
+      tags:
+      - "cluster_details"
+      summary: "get the cluster_details data"
+      description: "get the cluster_details data"
+      operationId: "cluster_details"
+      parameters:
+      - name: "cluster_name"
+        in: "formData"
+        description: "the cluster_name of user"
+        required: true
+        type: "string"
+      - name: "select_month"
+        in: "formData"
+        description: "the select_month of user"
+        required: true
+        type: "string"
+      - name: "high_low_vol"
+        in: "formData"
+        description: "the high_low_vol of user"
+        required: true
+        type: "string"
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      - name: "PageIndex"
+        in: "formData"
+        description: "the PageIndex of user"
+        required: true
+        type: "integer"
+      - name: "choose_city"
+        in: "formData"
+        description: "the choose_city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "cluster_details"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_cluster_cmp"
+
+
+######同类站对比#############################
+
+# ---------------# 1.获取所有聚类列表-------------------------
+  /get_high_low_vol:
+    post:
+      tags:
+      - "get_high_low_vol"
+      summary: "get the get_high_low_vol data"
+      description: "get the get_high_low_vol data"
+      operationId: "get_high_low_vol"
+      parameters: []
+      responses:
+        200:
+          description: "get_high_low_vol"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_same_kind_cmp"
+
+
+# ---------------# 1.获取所有聚类列表-------------------------
+  /way_of_cmp:
+    post:
+      tags:
+      - "way_of_cmp"
+      summary: "get the way_of_cmp data"
+      description: "get the way_of_cmp data"
+      operationId: "way_of_cmp"
+      parameters: []
+      responses:
+        200:
+          description: "way_of_cmp"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_same_kind_cmp"
+
+
+# ---------------# 2.同类划分-------------------------
+  /child_way_cmp:
+    post:
+      tags:
+      - "child_way_cmp"
+      summary: "get the child_way_cmp data"
+      description: "get the child_way_cmp data"
+      operationId: "child_way_cmp"
+      parameters:
+      - name: "way_of_cmp"
+        in: "formData"
+        description: "the way_of_cmp of user"
+        required: true
+        type: "string"
+      - name: "high_low_vol"
+        in: "formData"
+        description: "the high_low_vol of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "child_way_cmp"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_same_kind_cmp"
+
+# ---------------# 3.时间选择-------------------------
+  /time_choose:
+    post:
+      tags:
+      - "time_choose"
+      summary: "get the time_choose data"
+      description: "get the time_choose data"
+      operationId: "time_choose"
+      parameters:
+      - name: "high_low_vol"
+        in: "formData"
+        description: "the high_low_vol of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "time_choose"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_same_kind_cmp"
+
+# ---------------# 4. 同类对比柱图展示-------------------------
+  /same_kind_chart:
+    post:
+      tags:
+      - "same_kind_chart"
+      summary: "get the same_kind_chart data"
+      description: "get the same_kind_chart data"
+      operationId: "same_kind_chart"
+      parameters:
+      - name: "way_of_cmp"
+        in: "formData"
+        description: "the way_of_cmp of user"
+        required: true
+        type: "string"
+      - name: "child_way_cmp"
+        in: "formData"
+        description: "the child_way_cmp of user"
+        required: true
+        type: "string"
+      - name: "date_choose"
+        in: "formData"
+        description: "the date_choose of user"
+        required: true
+        type: "string"
+      - name: "high_low_vol"
+        in: "formData"
+        description: "the high_low_vol of user"
+        required: true
+        type: "string"
+      - name: "choose_city"
+        in: "formData"
+        description: "the choose_city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "same_kind_chart"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_same_kind_cmp"
+
+# ---------------# 4. 同类对比柱图展示-------------------------
+  /details_show_tz:
+    post:
+      tags:
+      - "details_show_tz"
+      summary: "get the details_show_tz data"
+      description: "get the details_show_tz data"
+      operationId: "details_show_tz"
+      parameters:
+      - name: "way_of_cmp"
+        in: "formData"
+        description: "the way_of_cmp of user"
+        required: true
+        type: "string"
+      - name: "child_way_cmp"
+        in: "formData"
+        description: "the child_way_cmp of user"
+        required: true
+        type: "string"
+      - name: "date_choose"
+        in: "formData"
+        description: "the date_choose of user"
+        required: true
+        type: "string"
+      - name: "high_low_vol"
+        in: "formData"
+        description: "the high_low_vol of user"
+        required: true
+        type: "string"
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      - name: "PageIndex"
+        in: "formData"
+        description: "the PageIndex of user"
+        required: true
+        type: "integer"
+      - name: "choose_city"
+        in: "formData"
+        description: "the choose_city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "details_show_tz"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_same_kind_cmp"
+
+
+########稳态对比页面######################
+# ---------------# 1.对比时间间隔-------------------------
+  /time_lag:
+    post:
+      tags:
+      - "time_lag"
+      summary: "get the time_lag data"
+      description: "get the time_lag data"
+      operationId: "time_lag"
+      parameters: []
+      responses:
+        200:
+          description: "time_lag"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_std_cmp"
+
+# ---------------# 2.基站列表-------------------------
+  /get_sta_list:
+    post:
+      tags:
+      - "get_sta_list"
+      summary: "get the get_sta_list data"
+      description: "get the get_sta_list data"
+      operationId: "get_sta_list"
+      parameters:
+      - name: "time_lag"
+        in: "formData"
+        description: "the time_lag of user"
+        required: true
+        type: "string"
+      - name: "choose_city"
+        in: "formData"
+        description: "the choose_city of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_sta_list"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_std_cmp"
+
+# ---------------# 3.开始时间和结束时间-------------------------
+  /get_time:
+    post:
+      tags:
+      - "get_time"
+      summary: "get the get_time data"
+      description: "get the get_time data"
+      operationId: "get_time"
+      parameters:
+      - name: "time_lag"
+        in: "formData"
+        description: "the time_lag of user"
+        required: true
+        type: "string"
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_time"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_std_cmp"
+
+# ---------------# 4. 稳态图表-------------------------
+  /std_chart:
+    post:
+      tags:
+      - "std_chart"
+      summary: "get the std_chart data"
+      description: "get the std_chart data"
+      operationId: "std_chart"
+      parameters:
+      - name: "time_lag"
+        in: "formData"
+        description: "the time_lag of user"
+        required: true
+        type: "string"
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      - name: "StartDate"
+        in: "formData"
+        description: "the StartDate of user"
+        required: true
+        type: "string"
+      - name: "EndDate"
+        in: "formData"
+        description: "the EndDate of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "std_chart"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_std_cmp"
+
+# ---------------# 5. 淡季旺季-------------------------
+  /get_month_cmp:
+    post:
+      tags:
+      - "get_month_cmp"
+      summary: "get the get_month_cmp data"
+      description: "get the get_month_cmp data"
+      operationId: "get_month_cmp"
+      parameters:
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_month_cmp"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_std_cmp"
+
+# ---------------# 5. 找到平时、节假日对比-------------------------
+  /get_weekend_cmp:
+    post:
+      tags:
+      - "get_weekend_cmp"
+      summary: "get the get_weekend_cmp data"
+      description: "get the get_weekend_cmp data"
+      operationId: "get_weekend_cmp"
+      parameters:
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_weekend_cmp"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_std_cmp"
+
+# ---------------# 6. 找到平时、节假日对比-------------------------
+  /get_high_low_cmp:
+    post:
+      tags:
+      - "get_high_low_cmp"
+      summary: "get the get_high_low_cmp data"
+      description: "get the get_high_low_cmp data"
+      operationId: "get_high_low_cmp"
+      parameters:
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_high_low_cmp"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_std_cmp"
+
+########xgdl_std_cmp 增加增加###########################
+# ---------------# 获取时间列表-------------------------
+  /get_time_list:
+    post:
+      tags:
+      - "get_time_list"
+      summary: "get the get_time_list data"
+      description: "get the get_time_list data"
+      operationId: "get_time_list"
+      parameters:
+      - name: "time_lag"
+        in: "formData"
+        description: "the time_lag of user"
+        required: true
+        type: "string"
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_time_list"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_std_cmp"
+
+
+# ---------------# 第二版----稳态图表-------------------------
+  /get_sta_chart:
+    post:
+      tags:
+      - "get_sta_chart"
+      summary: "get the get_sta_chart data"
+      description: "get the get_sta_chart data"
+      operationId: "get_sta_chart"
+      parameters:
+      - name: "time_lag"
+        in: "formData"
+        description: "the time_lag of user"
+        required: true
+        type: "string"
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of user"
+        required: true
+        type: "string"
+      - name: "get_time"
+        in: "formData"
+        description: "the get_time of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_sta_chart"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_std_cmp"
+
+
+#####################异常展示################
+# ---------------# 2.异常基站详情-------------------------
+  /err_sta_details:
+    post:
+      tags:
+      - "err_type"
+      summary: "get the err_sta_details data"
+      description: "get the err_sta_details data"
+      operationId: "err_sta_details"
+      parameters:
+      - name: "PageIndex"
+        in: "formData"
+        description: "the PageIndex of user"
+        required: true
+        type: "integer"
+      responses:
+        200:
+          description: "err_sta_details"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_err_show"
+
+# ---------------# 1.异常图表展示-------------------------
+  /err_chart_show:
+    post:
+      tags:
+      - "err_type"
+      summary: "get the err_chart_show data"
+      description: "get the err_chart_show data"
+      operationId: "err_chart_show"
+      parameters:
+      - name: "sta_no"
+        in: "formData"
+        description: "the sta_no of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "err_chart_show"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_err_show"
+
+
+
+
+
+
+#####能耗预测页面#########################
+# ---------------# 1.预测方式-------------------------
+  /predict_method:
+    post:
+      tags:
+      - "predict_method"
+      summary: "get the predict_method data"
+      description: "get the predict_method data"
+      operationId: "predict_method"
+      parameters:
+      - name: "ammeter_or_station"
+        in: "formData"
+        description: "the ammeter_or_station of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "predict_method"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_prediction"
+
+# ---------------# 1.0 预测颗粒度-------------------------
+  /ammeter_and_station:
+    post:
+      tags:
+      - "ammeter_and_station"
+      summary: "get the ammeter_and_station data"
+      description: "get the ammeter_and_station data"
+      operationId: "ammeter_and_station"
+      parameters: []
+      responses:
+        200:
+          description: "ammeter_and_station"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_prediction"
+
+
+# ---------------# 2. 获取所有电表------------------------
+  /get_ammeter_station_list:
+    post:
+      tags:
+      - "get_ammeter_station_list"
+      summary: "get the get_ammeter_station_list data"
+      description: "get the get_ammeter_station_list data"
+      operationId: "get_ammeter_station_list"
+      parameters:
+      - name: "veidoo"
+        in: "formData"
+        description: "the veidoo of user"
+        required: true
+        type: "string"
+      - name: "ammeter_or_station"
+        in: "formData"
+        description: "the ammeter_or_station of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_ammeter_station_list"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_prediction"
+
+# ---------------# 1.3. 3根据具体电表或具体基站获取时间段------------------------
+  /get_time_range:
+    post:
+      tags:
+      - "get_time_range"
+      summary: "get the get_time_range data"
+      description: "get the get_time_range data"
+      operationId: "get_time_range"
+      parameters:
+      - name: "veidoo"
+        in: "formData"
+        description: "the veidoo of user"
+        required: true
+        type: "string"
+      - name: "ammeter_or_station"
+        in: "formData"
+        description: "the ammeter_or_station of user"
+        required: true
+        type: "string"
+      - name: "detile"
+        in: "formData"
+        description: "the detile of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_time_range"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_prediction"
+
+
+# ---------------# 3.预测数据------------------------
+  /predict_data:
+    post:
+      tags:
+      - "predict_data"
+      summary: "get the predict_data data"
+      description: "get the predict_data data"
+      operationId: "predict_data"
+      parameters:
+      - name: "veidoo"
+        in: "formData"
+        description: "the veidoo of user"
+        required: true
+        type: "string"
+      - name: "ammeter_or_station"
+        in: "formData"
+        description: "the ammeter_or_station of user"
+        required: true
+        type: "string"
+      - name: "ammeter_or_station_detile"
+        in: "formData"
+        description: "the ammeter_or_station_detile of user"
+        required: true
+        type: "string"
+      - name: "way_predict"
+        in: "formData"
+        description: "the way_predict of user"
+        required: true
+        type: "string"
+      - name: "StartDate"
+        in: "formData"
+        description: "the StartDate of user"
+        required: true
+        type: "string"
+      - name: "EndDate"
+        in: "formData"
+        description: "the EndDate of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "predict_data"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_prediction"
+# ----------------------------------------
+
+#######能耗预警页面###########################
+# ---------------# 1. 时间段------------------------
+  /data_list:
+    post:
+      tags:
+      - "data_list"
+      summary: "get the data_list data"
+      description: "get the data_list data"
+      operationId: "data_list"
+      parameters:
+      - name: "veidoo"
+        in: "formData"
+        description: "the veidoo of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "data_list"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_warning"
+
+
+# ---------------# 2. 获取基站坐标------------------------
+  /get_x_y:
+    post:
+      tags:
+      - "get_x_y"
+      summary: "get the get_x_y data"
+      description: "get the get_x_y data"
+      operationId: "get_x_y"
+      parameters:
+      - name: "veidoo"
+        in: "formData"
+        description: "the veidoo of user"
+        required: true
+        type: "string"
+      - name: "StartDate"
+        in: "formData"
+        description: "the StartDate of user"
+        required: true
+        type: "string"
+      - name: "EndDate"
+        in: "formData"
+        description: "the EndDate of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "StartDate_and_EndDate_1"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_warning"
+
+# ---------------# 3. 获取详细信息------------------------
+  /get_xy_detile:
+    post:
+      tags:
+      - "get_xy_detile"
+      summary: "get the get_xy_detile data"
+      description: "get the get_xy_detile data"
+      operationId: "get_xy_detile"
+      parameters:
+      - name: "x"
+        in: "formData"
+        description: "the x of user"
+        required: false
+        type: "string"
+      - name: "y"
+        in: "formData"
+        description: "the y of user"
+        required: false
+        type: "string"
+      - name: "veidoo"
+        in: "formData"
+        description: "the veidoo of user"
+        required: true
+        type: "string"
+      - name: "StartDate"
+        in: "formData"
+        description: "the StartDate of user"
+        required: true
+        type: "string"
+      - name: "EndDate"
+        in: "formData"
+        description: "the EndDate of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_xy_detile"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_warning"
+
+
+# ---------------# 4. 电费预警------------------------
+  /electrical_warning:
+    post:
+      tags:
+      - "electrical_warning"
+      summary: "get the electrical_warning data"
+      description: "get the electrical_warning data"
+      operationId: "electrical_warning"
+      parameters:
+      - name: "PageIndex"
+        in: "formData"
+        description: "the PageIndex of user"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "electrical_warning"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_warning"
+
+###############录入页面##########################
+# ---------------# 1. 导入的文件类型------------------------
+  /import_file_type:
+    post:
+      tags:
+      - "import_file_type"
+      summary: "get the import_file_type data"
+      description: "get the import_file_type data"
+      operationId: "import_file_type"
+      parameters: []
+      responses:
+        200:
+          description: "import_file_type"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_import"
+# ----------2. 文件传送------------
+  /FileImport:
+    post:
+      tags:
+      - "FileImport"
+      summary: "get the FileImport data"
+      description: "get the FileImport data"
+      operationId: "FileImport"
+      parameters:
+      - name: "arg"
+        in: "formData"
+        description: "the arge of name"
+        required: true
+        type: "string"
+      - name: "description"
+        in: "formData"
+        description: "the description of name"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "FileImport"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_import"
+# ----------------------------------------
+
+# ----------3. 展示导入结果------------
+  /showimport:
+    post:
+      tags:
+      - "showimport"
+      summary: "get the showimport data"
+      description: "get the showimport data"
+      operationId: "showimport"
+      parameters:
+      - name: "PageIndex"
+        in: "formData"
+        description: "the PageIndex of user"
+        required: true
+        type: "integer"
+      responses:
+        200:
+          description: "showimport"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_import"
+# ----------------------------------------
+
+# ----------5. 删除导入记录------------
+  /show_delete:
+    post:
+      tags:
+      - "show_delete"
+      summary: "get the show_delete data"
+      description: "get the show_delete data"
+      operationId: "show_delete"
+      parameters:
+      - name: "file_id"
+        in: "formData"
+        description: "the file_id of name"
+        required: true
+        type: "integer"
+      responses:
+        200:
+          description: "show_delete"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_import"
+# ----------------------------------------
+
+# ----------5. 删除导入记录------------
+  /file_split:
+    post:
+      tags:
+      - "file_split"
+      summary: "get the file_split data"
+      description: "get the file_split data"
+      operationId: "file_split"
+      parameters: []
+      responses:
+        200:
+          description: "file_split"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_import"
+# ----------------------------------------
+
+# ----------6. 高压低压数据导入------------
+  /TicketImport:
+    post:
+      tags:
+      - "TicketImport"
+      summary: "get the TicketImport data"
+      description: "get the TicketImport data"
+      operationId: "TicketImport"
+      parameters: []
+      responses:
+        200:
+          description: "TicketImport"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_import"
+# ----------------------------------------
+
+###############自动导入页面##########################
+# ---------------# 1. 导入数据展示------------------------
+  /show_data:
+    post:
+      tags:
+      - "show_data"
+      summary: "get the show_data data"
+      description: "get the show_data data"
+      operationId: "show_data"
+      parameters:
+      - name: "PageIndex"
+        in: "formData"
+        description: "the PageIndex of name"
+        required: true
+        type: "integer"
+      responses:
+        200:
+          description: "show_data"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_auto_import"
+
+# ---------------# 1. 导入数据展示------------------------
+  /data_export:
+    post:
+      tags:
+      - "data_export"
+      summary: "get the data_export data"
+      description: "get the data_export data"
+      operationId: "data_export"
+      parameters: []
+      responses:
+        200:
+          description: "data_export"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_auto_import"
+
+# ---------------# 删除需要导入的数据------------------------
+  /delete_data:
+    post:
+      tags:
+      - "delete_data"
+      summary: "get the delete_data data"
+      description: "get the delete_data data"
+      operationId: "delete_data"
+      parameters:
+      - name: "read_id"
+        in: "formData"
+        description: "the read_id of name"
+        required: true
+        type: "integer"
+      responses:
+        200:
+          description: "delete_data"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_auto_import"
+
+# ---------------# 删除需要导入的数据------------------------
+  /delete_file:
+    post:
+      tags:
+      - "delete_file"
+      summary: "get the delete_file data"
+      description: "get the delete_file data"
+      operationId: "delete_file"
+      parameters: []
+      responses:
+        200:
+          description: "delete_file"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_auto_import"
+
+
+# #############节能页面####################
+# ---------------# 1. 节能基站列表------------------------
+  /jn_get_all_sta:
+    post:
+      tags:
+      - "jn_get_all_sta"
+      summary: "get the jn_get_all_sta data"
+      description: "get the jn_get_all_sta data"
+      operationId: "jn_get_all_sta"
+      parameters: []
+      responses:
+        200:
+          description: "jn_get_all_sta"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_save_manage"
+
+
+# ---------------# 1. 基站区域------------------------
+  /dr_area:
+    post:
+      tags:
+      - "dr_area"
+      summary: "get the dr_area data"
+      description: "get the dr_area data"
+      operationId: "dr_area"
+      parameters: []
+      responses:
+        200:
+          description: "dr_area"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_save_manage"
+
+# ---------------# 2. 基站和功率因素列表------------------------
+  /dr_sta_list:
+    post:
+      tags:
+      - "dr_sta_list"
+      summary: "get the dr_sta_list data"
+      description: "get the dr_sta_list data"
+      operationId: "dr_sta_list"
+      parameters:
+      - name: "power_fac"
+        in: "formData"
+        description: "the power_fac of name"
+        required: true
+        type: "string"
+      - name: "sta_area"
+        in: "formData"
+        description: "the sta_area of name"
+        required: true
+        type: "string"
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of name"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "dr_sta_list"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_save_manage"
+
+# ---------------# 3. 无功能率折线图------------------------
+  /dr_reactive_pow_chart:
+    post:
+      tags:
+      - "dr_reactive_pow_chart"
+      summary: "get the dr_reactive_pow_chart data"
+      description: "get the dr_reactive_pow_chart data"
+      operationId: "dr_reactive_pow_chart"
+      parameters:
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of name"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "dr_reactive_pow_chart"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_save_manage"
+
+# ---------------# 3. 基站详情------------------------
+  /get_sta_details:
+    post:
+      tags:
+      - "get_sta_details"
+      summary: "get the get_sta_details data"
+      description: "get the get_sta_details data"
+      operationId: "get_sta_details"
+      parameters:
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of name"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_sta_details"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_save_manage"
+
+
+# ---------------# 4. 电容方案------------------------
+  /capacitance_scheme:
+    post:
+      tags:
+      - "capacitance_scheme"
+      summary: "get the capacitance_scheme data"
+      description: "get the capacitance_scheme data"
+      operationId: "capacitance_scheme"
+      parameters:
+      - name: "sta_name"
+        in: "formData"
+        description: "the sta_name of name"
+        required: true
+        type: "string"
+      - name: "power_fac_old"
+        in: "formData"
+        description: "the power_fac_old of name"
+        required: true
+        type: "string"
+      - name: "power_fac_new"
+        in: "formData"
+        description: "the power_fac_new of name"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "capacitance_scheme"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_energy_save_manage"
+
+############空调节能##################
+# ---------------# 1. 空调节能------------------------
+  /get_real_time_data:
+    post:
+      tags:
+      - "capacitance_scheme"
+      summary: "get the get_real_time_data data"
+      description: "get the get_real_time_data data"
+      operationId: "get_real_time_data"
+      parameters:
+      - name: "meter_list"
+        in: "formData"
+        description: "the meter_list of name"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "get_real_time_data"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_air_save_manage"
+
+# ---------------# 电表列表------------------------
+  /ele_meter_list:
+    post:
+      tags:
+      - "ele_meter_list"
+      summary: "get the ele_meter_list data"
+      description: "get the ele_meter_list data"
+      operationId: "ele_meter_list"
+      parameters: []
+      responses:
+        200:
+          description: "ele_meter_list"
+          schema:
+            $ref: "#/definitions/Product"
+        default:
+          description: "Unexpected error"
+          schema:
+            $ref: "#/definitions/Product"
+      x-swagger-router-controller: "swagger_server.controllers.xgdl_air_save_manage"
+
+
+
+
+# ----------------------------------------
+definitions:
+  Product:
+    type: "object"
+    properties:
+      product_id:
+        type: "string"
+        description: "Unique identifier representing a specific product for a given\
+          \ latitude & longitude. For example, uberX in San Francisco will have a\
+          \ different product_id than uberX in Los Angeles."
+      description:
+        type: "string"
+        description: "Description of product."
+      display_name:
+        type: "string"
+        description: "Display name of product."
+      capacity:
+        type: "string"
+        description: "Capacity of product. For example, 4 people."
+      image:
+        type: "string"
+        description: "Image URL representing the product."
+  Activity:
+    type: "object"
+    properties:
+      uuid:
+        type: "string"
+        description: "Unique identifier for the activity"
+  Activities:
+    type: "object"
+    properties:
+      offset:
+        type: "integer"
+        format: "int32"
+        description: "Position in pagination."
+      limit:
+        type: "integer"
+        format: "int32"
+        description: "Number of items to retrieve (100 max)."
+      count:
+        type: "integer"
+        format: "int32"
+        description: "Total number of items available."
+      history:
+        type: "array"
+        items:
+          $ref: "#/definitions/Activity"
+  Error:
+    type: "object"
+    properties:
+      code:
+        type: "integer"
+        format: "int32"
+      message:
+        type: "string"
+      fields:
+        type: "string"

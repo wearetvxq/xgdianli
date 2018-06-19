@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="98ce53ad-fb77-4b18-9d90-f77ae66e4348" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/controllers/zsdl_Abnormal_Electricity.py" afterPath="$PROJECT_DIR$/swagger_server/controllers/zsdl_Abnormal_Electricity.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/controllers/zsdl_ElectricityPrediction.py" afterPath="$PROJECT_DIR$/swagger_server/controllers/zsdl_ElectricityPrediction.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/controllers/zsdl_failure_prediction.py" afterPath="$PROJECT_DIR$/swagger_server/controllers/zsdl_failure_prediction.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/controllers/zsdl_import.py" afterPath="$PROJECT_DIR$/swagger_server/controllers/zsdl_import.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/controllers/zsdl_login_register.py" afterPath="$PROJECT_DIR$/swagger_server/controllers/zsdl_login_register.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/swagger/swagger.yaml" afterPath="$PROJECT_DIR$/swagger_server/swagger/swagger.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/swagger_server/utitl/mysqlset.py" afterPath="$PROJECT_DIR$/swagger_server/utitl/mysqlset.py" />
+    </list>
+    <ignored path="python-flask-server.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/python-flask-server$products_controller.coverage" NAME="products_controller Coverage Results" MODIFIED="1497464249266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server/controllers" />
+    <SUITE FILE_PATH="coverage/python-flask-server$zsdl_repair_plan.coverage" NAME="zsdl_repair_plan Coverage Results" MODIFIED="1500943118432" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server/controllers" />
+    <SUITE FILE_PATH="coverage/python-flask-server$__main__.coverage" NAME="__main__ Coverage Results" MODIFIED="1502878304167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/swagger_server" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="python-flask-server" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.61163896">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="zsdl_ElectricityPrediction.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_ElectricityPrediction.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="182">
+                  <caret line="501" column="38" selection-start-line="501" selection-start-column="38" selection-end-line="501" selection-end-column="38" />
+                  <folding>
+                    <element signature="e#24#40#0" expanded="true" />
+                    <marker date="1502879175763" expanded="true" signature="907:970" ph="SELECT ID FR... zsdl_trouble_checkinfo" />
+                    <marker date="1502879175763" expanded="true" signature="1231:1291" ph="select min(d... missing_value" />
+                    <marker date="1502879175763" expanded="true" signature="2251:2315" ph="SELECT momen... " />
+                    <marker date="1502879175763" expanded="true" signature="4813:4877" ph="SELECT momen... " />
+                    <marker date="1502879175763" expanded="true" signature="8058:8098" ph="SELECT momen... " />
+                    <marker date="1502879175763" expanded="true" signature="10702:10766" ph="SELECT momen... " />
+                    <marker date="1502879175763" expanded="true" signature="12519:12582" ph="SELECT ID FR... zsdl_trouble_checkinfo" />
+                    <marker date="1502879175763" expanded="true" signature="12853:12913" ph="select min(d... missing_value" />
+                    <marker date="1502879175763" expanded="true" signature="12853:12956" ph="select min(d... zsdl_load_predict" />
+                    <marker date="1502879175763" expanded="true" signature="13994:14096" ph="SELECT predi... zsdl_load_predict" />
+                    <marker date="1502879175763" expanded="true" signature="15447:15534" ph="SELECT datet... zsdl_load_predict" />
+                    <marker date="1502879175763" expanded="true" signature="17470:17572" ph="SELECT predi... zsdl_load_predict" />
+                    <marker date="1502879175763" expanded="true" signature="20751:20829" ph="SELECT predi... zsdl_load_predict" />
+                    <marker date="1502879175763" expanded="true" signature="23410:23512" ph="SELECT predi... zsdl_load_predict" />
+                    <marker date="1502879175763" expanded="true" signature="25331:25390" ph="select trans... zsdl_trouble_checkinfo" />
+                    <marker date="1502879175763" expanded="true" signature="25422:25510" ph="select trans... zsdl_trouble_checkinfo" />
+                    <marker date="1502879175763" expanded="true" signature="25945:26023" ph="select trans... zsdl_load_predict" />
+                    <marker date="1502879175763" expanded="true" signature="26397:26474" ph="select min(d... zsdl_load_predict" />
+                    <marker date="1502879175763" expanded="true" signature="26397:26475" ph="select min(d... zsdl_load_predict" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="zsdl_login_register.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_login_register.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="336">
+                  <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+                  <folding>
+                    <element signature="e#25#72#0" expanded="true" />
+                    <marker date="1502879155195" expanded="true" signature="582:646" ph="select * fro... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="990:1036" ph="select * fro... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="990:1190" ph="select name zsdl_user_node" />
+                    <marker date="1502879155195" expanded="true" signature="1037:1189" ph="select pid F... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="1077:1188" ph="SELECT role_... zsdl_user_role_group" />
+                    <marker date="1502879155195" expanded="true" signature="1139:1187" ph="SELECT `grou... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="1290:1328" ph="select * fro... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="1290:1329" ph="select name,... missing_value" />
+                    <marker date="1502879155195" expanded="true" signature="2576:2606" ph="UPDATE table... " />
+                    <marker date="1502879155195" expanded="true" signature="2576:2642" ph="UPDATE zsdl_... " />
+                    <marker date="1502879155195" expanded="true" signature="2576:2644" ph="UPDATE zsdl_... " />
+                    <marker date="1502879155195" expanded="true" signature="3138:3336" ph="select name zsdl_user_node" />
+                    <marker date="1502879155195" expanded="true" signature="3183:3335" ph="select pid F... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="3223:3334" ph="SELECT role_... zsdl_user_role_group" />
+                    <marker date="1502879155195" expanded="true" signature="3285:3333" ph="SELECT `grou... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="3433:3472" ph="select name,... missing_value" />
+                    <marker date="1502879155195" expanded="true" signature="4325:4532" ph="select admin... zsdl_user_role_map" />
+                    <marker date="1502879155195" expanded="true" signature="4377:4531" ph="select name zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="4419:4530" ph="SELECT role_... zsdl_user_role_group" />
+                    <marker date="1502879155195" expanded="true" signature="4481:4529" ph="SELECT `grou... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="4928:4975" ph="SELECT name zsdl_user_role_map" />
+                    <marker date="1502879155195" expanded="true" signature="5620:5777" ph="select `name... zsdl_user_group" />
+                    <marker date="1502879155195" expanded="true" signature="5668:5776" ph="select user_... zsdl_user_role_group" />
+                    <marker date="1502879155195" expanded="true" signature="5730:5759" ph="select id FR... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="5730:5775" ph="select id FR... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="6382:6438" ph="select id fr... zsdl_user_group" />
+                    <marker date="1502879155195" expanded="true" signature="6654:6711" ph="insert into zsdl_user_group... " />
+                    <marker date="1502879155195" expanded="true" signature="6835:6891" ph="select id fr... zsdl_user_group" />
+                    <marker date="1502879155195" expanded="true" signature="7015:7070" ph="select id fr... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="7156:7229" ph="insert into zsdl_user_role_group... " />
+                    <marker date="1502879155195" expanded="true" signature="7692:7754" ph="select `name... zsdl_user_role_map" />
+                    <marker date="1502879155195" expanded="true" signature="8072:8154" ph="select `name... zsdl_user_role_map" />
+                    <marker date="1502879155195" expanded="true" signature="8755:8856" ph="select `name... zsdl_user_node" />
+                    <marker date="1502879155195" expanded="true" signature="8808:8855" ph="SELECT id FR... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="8953:8983" ph="select title... missing_value" />
+                    <marker date="1502879155195" expanded="true" signature="9562:9663" ph="select `name... zsdl_user_node" />
+                    <marker date="1502879155195" expanded="true" signature="9615:9662" ph="SELECT id FR... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="10474:10617" ph="insert into missing_value... " />
+                    <marker date="1502879155195" expanded="true" signature="10535:10613" ph="select `name... missing_value" />
+                    <marker date="1502879155195" expanded="true" signature="10810:10829" ph="UPDATE missi... " />
+                    <marker date="1502879155195" expanded="true" signature="10922:10959" ph="UPDATE missi... " />
+                    <marker date="1502879155195" expanded="true" signature="11422:11477" ph="select id fr... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="11724:11796" ph="insert into zsdl_user_role... " />
+                    <marker date="1502879155195" expanded="true" signature="11918:11973" ph="select id fr... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="12197:12251" ph="select MAX(a... zsdl_user_role_map" />
+                    <marker date="1502879155195" expanded="true" signature="12197:12252" ph="select MAX(a... zsdl_user_role_map" />
+                    <marker date="1502879155195" expanded="true" signature="12337:12400" ph="insert into zsdl_user_role_map... " />
+                    <marker date="1502879155195" expanded="true" signature="12627:12846" ph="select user_... zsdl_user_role_map" />
+                    <marker date="1502879155195" expanded="true" signature="12689:12845" ph="SELECT `name... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="12733:12774" ph="SELECT role_... zsdl_user_role_group" />
+                    <marker date="1502879155195" expanded="true" signature="12733:12844" ph="SELECT role_... zsdl_user_role_group" />
+                    <marker date="1502879155195" expanded="true" signature="12795:12843" ph="SELECT `grou... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="12938:13000" ph="insert into zsdl_user_role_map... " />
+                    <marker date="1502879155195" expanded="true" signature="13236:13279" ph="select `name... zsdl_user_node" />
+                    <marker date="1502879155195" expanded="true" signature="13792:13867" ph="insert into zsdl_user_node... " />
+                    <marker date="1502879155195" expanded="true" signature="14017:14296" ph="CREATE TABLE... IF" />
+                    <marker date="1502879155195" expanded="true" signature="14533:14563" ph="select title... missing_value" />
+                    <marker date="1502879155195" expanded="true" signature="15376:15477" ph="select `name... zsdl_user_node" />
+                    <marker date="1502879155195" expanded="true" signature="15421:15476" ph="select id fr... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="15635:15662" ph="select title... zsdl_user_node" />
+                    <marker date="1502879155195" expanded="true" signature="15635:15665" ph="select title... missing_value" />
+                    <marker date="1502879155195" expanded="true" signature="16361:16462" ph="select `name... zsdl_user_node" />
+                    <marker date="1502879155195" expanded="true" signature="16414:16461" ph="SELECT id FR... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="16560:16579" ph="UPDATE missi... " />
+                    <marker date="1502879155195" expanded="true" signature="16680:16717" ph="UPDATE missi... " />
+                    <marker date="1502879155195" expanded="true" signature="17206:17310" ph="select role_... zsdl_user_role_group" />
+                    <marker date="1502879155195" expanded="true" signature="17262:17309" ph="select id FR... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="17492:17537" ph="DELETE FROM " />
+                    <marker date="1502879155195" expanded="true" signature="17492:17541" ph="DELETE FROM " />
+                    <marker date="1502879155195" expanded="true" signature="17678:17771" ph="select `name... zsdl_user_node" />
+                    <marker date="1502879155195" expanded="true" signature="17723:17770" ph="SELECT id FR... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="17893:17904" ph="DROP TABLE '... " />
+                    <marker date="1502879155195" expanded="true" signature="18033:18119" ph="DELETE FROM " />
+                    <marker date="1502879155195" expanded="true" signature="18071:18118" ph="SELECT id FR... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="18300:18344" ph="DELETE FROM " />
+                    <marker date="1502879155195" expanded="true" signature="18904:18947" ph="select id,`n... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="19406:19450" ph="select id,`n... zsdl_user_group" />
+                    <marker date="1502879155195" expanded="true" signature="19880:19924" ph="select `name... zsdl_user_group" />
+                    <marker date="1502879155195" expanded="true" signature="20383:20439" ph="select id fr... zsdl_user_group" />
+                    <marker date="1502879155195" expanded="true" signature="20525:20580" ph="select id fr... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="20659:20722" ph="UPDATE zsdl_... " />
+                    <marker date="1502879155195" expanded="true" signature="21202:21308" ph="UPDATE zsdl_... " />
+                    <marker date="1502879155195" expanded="true" signature="21232:21288" ph="select id fr... zsdl_user_group" />
+                    <marker date="1502879155195" expanded="true" signature="21752:21792" ph="DELETE FROM " />
+                    <marker date="1502879155195" expanded="true" signature="22279:22368" ph="select id fr... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="22319:22367" ph="select id FR... zsdl_user_group" />
+                    <marker date="1502879155195" expanded="true" signature="22567:22670" ph="DELETE FROM " />
+                    <marker date="1502879155195" expanded="true" signature="22621:22669" ph="SELECT id FR... zsdl_user_group" />
+                    <marker date="1502879155195" expanded="true" signature="22801:22846" ph="DELETE FROM " />
+                    <marker date="1502879155195" expanded="true" signature="23251:23262" ph="DROP TABLE m... " />
+                    <marker date="1502879155195" expanded="true" signature="23251:23264" ph="DROP TABLE m... " />
+                    <marker date="1502879155195" expanded="true" signature="23611:23678" ph="insert into zsdl_user_node... " />
+                    <marker date="1502879155195" expanded="true" signature="23617:23678" ph="insert into zsdl_user_node... " />
+                    <marker date="1502879155195" expanded="true" signature="23840:23962" ph="CREATE TABLE... IF" />
+                    <marker date="1502879155195" expanded="true" signature="23840:23999" ph="CREATE TABLE... IF" />
+                    <marker date="1502879155195" expanded="true" signature="23840:24022" ph="CREATE TABLE... IF" />
+                    <marker date="1502879155195" expanded="true" signature="23840:24049" ph="CREATE TABLE... IF" />
+                    <marker date="1502879155195" expanded="true" signature="23840:24084" ph="CREATE TABLE... IF" />
+                    <marker date="1502879155195" expanded="true" signature="24098:24381" ph="CREATE TABLE... IF" />
+                    <marker date="1502879155195" expanded="true" signature="24771:24978" ph="select admin... zsdl_user_role_map" />
+                    <marker date="1502879155195" expanded="true" signature="24823:24977" ph="select name zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="24823:24978" ph="select name zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="24865:24976" ph="SELECT role_... zsdl_user_role_group" />
+                    <marker date="1502879155195" expanded="true" signature="24927:24975" ph="SELECT `grou... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="25174:25242" ph="select accou... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="25653:25705" ph="select `name... zsdl_user_group" />
+                    <marker date="1502879155195" expanded="true" signature="26526:26744" ph="select id,na... zsdl_user_group" />
+                    <marker date="1502879155195" expanded="true" signature="26576:26744" ph="select user_... " />
+                    <marker date="1502879155195" expanded="true" signature="26638:26742" ph="select id FR... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="26638:26744" ph="select id FR... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="26680:26729" ph="select id fr... zsdl_user_group" />
+                    <marker date="1502879155195" expanded="true" signature="26680:26739" ph="select name zsdl_user_group" />
+                    <marker date="1502879155195" expanded="true" signature="26680:26741" ph="select name zsdl_user_group" />
+                    <marker date="1502879155195" expanded="true" signature="27121:27202" ph="select accou... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="27121:27204" ph="select accou... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="27317:27399" ph="select accou... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="27317:27416" ph="select accou... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="27550:27618" ph="select accou... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="27550:27624" ph="select accou... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="30656:30698" ph="select * fro... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="30656:30702" ph="select id fr... zsdl_user_role" />
+                    <marker date="1502879155195" expanded="true" signature="31033:31089" ph="select * fro... zsdl_user" />
+                    <marker date="1502879155195" expanded="true" signature="31305:31403" ph="insert into zsdl_user... " />
+                    <marker date="1502879155195" expanded="true" signature="31305:31446" ph="insert into zsdl_user... " />
+                    <marker date="1502879155195" expanded="true" signature="31471:31558" ph="insert into zsdl_user... " />
+                    <marker date="1502879155195" expanded="true" signature="31471:31616" ph="insert into zsdl_user... " />
+                    <marker date="1502879155195" expanded="true" signature="31713:31769" ph="select * fro... zsdl_user" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="swagger.yaml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/swagger_server/swagger/swagger.yaml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="274">
+                  <caret line="425" column="20" selection-start-line="425" selection-start-column="20" selection-end-line="425" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="zsdl_failure_prediction.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_failure_prediction.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="157" column="21" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="21" />
+                  <folding>
+                    <marker date="1502879155230" expanded="true" signature="742:820" ph="SELECT troub... zsdl_trouble_reference_load" />
+                    <marker date="1502879155230" expanded="true" signature="1419:1497" ph="SELECT trans... zsdl_trouble_reference_load" />
+                    <marker date="1502879155230" expanded="true" signature="1928:2006" ph="SELECT trans... zsdl_load_predict" />
+                    <marker date="1502879155230" expanded="true" signature="2324:2402" ph="SELECT trans... zsdl_trouble_reference_load" />
+                    <marker date="1502879155230" expanded="true" signature="3056:3141" ph="SELECT troub... zsdl_trouble_reference_load" />
+                    <marker date="1502879155230" expanded="true" signature="3598:3661" ph="SELECT ID FR... zsdl_trouble_checkinfo" />
+                    <marker date="1502879155230" expanded="true" signature="3865:3925" ph="select min(d... missing_value" />
+                    <marker date="1502879155230" expanded="true" signature="4497:4596" ph="SELECT momen... missing_value" />
+                    <marker date="1502879155230" expanded="true" signature="7050:7135" ph="SELECT troub... zsdl_trouble_reference_load" />
+                    <marker date="1502879155230" expanded="true" signature="7593:7663" ph="SELECT ID FR... zsdl_load_predict" />
+                    <marker date="1502879155230" expanded="true" signature="7795:7855" ph="select min(d... missing_value" />
+                    <marker date="1502879155230" expanded="true" signature="7795:7894" ph="select min(d... zsdl_load_predict" />
+                    <marker date="1502879155230" expanded="true" signature="7795:7898" ph="select min(d... zsdl_load_predict" />
+                    <marker date="1502879155230" expanded="true" signature="7795:7922" ph="select min(d... zsdl_load_predict" />
+                    <marker date="1502879155230" expanded="true" signature="8472:8561" ph="SELECT predi... missing_value" />
+                    <marker date="1502879155230" expanded="true" signature="8472:8587" ph="SELECT predi... zsdl_load_predict" />
+                    <marker date="1502879155230" expanded="true" signature="10337:10422" ph="SELECT troub... zsdl_trouble_reference_load" />
+                    <marker date="1502879155230" expanded="true" signature="11269:11332" ph="SELECT ID FR... zsdl_trouble_checkinfo" />
+                    <marker date="1502879155230" expanded="true" signature="11523:11586" ph="SELECT datet... missing_value" />
+                    <marker date="1502879155230" expanded="true" signature="14438:14523" ph="SELECT troub... zsdl_trouble_reference_load" />
+                    <marker date="1502879155230" expanded="true" signature="15382:15445" ph="SELECT ID FR... zsdl_trouble_checkinfo" />
+                    <marker date="1502879155230" expanded="true" signature="15642:15743" ph="SELECT datet... missing_value" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/swagger_server/controllers/login.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/login_signin.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/products_controller.py" />
+        <option value="$PROJECT_DIR$/swagger_server/__main__.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/login_register.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/zsdl_ Efficiency.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/zsdl_expansion.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/zsdl_home.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/zsdl_IndustryMapping.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/zsdl_repair_plan.py" />
+        <option value="$PROJECT_DIR$/swagger_server/utitl/excleutil.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/zsdl_Failure_Analysis.py" />
+        <option value="$PROJECT_DIR$/swagger_server/utitl/Rbac.class.py" />
+        <option value="$PROJECT_DIR$/swagger_server/utitl/rbac_user.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/zsdl_Abnormal_Electricity.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/zsdl_Ticket_Query.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/zsdl_import.py" />
+        <option value="$PROJECT_DIR$/swagger_server/utitl/mysqlset.py" />
+        <option value="$PROJECT_DIR$/swagger_server/swagger/swagger.yaml" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/zsdl_failure_prediction.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/zsdl_login_register.py" />
+        <option value="$PROJECT_DIR$/swagger_server/controllers/zsdl_ElectricityPrediction.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-flask-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-flask-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-flask-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-flask-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-flask-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swagger_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-flask-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-flask-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swagger_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utitl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-flask-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-flask-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swagger_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="upload" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-flask-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-flask-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swagger_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swagger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-flask-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python-flask-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="swagger_server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/rbac" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="E:\nodejs\node.exe" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\zhoushan\zhoushan_after\zhoushan\python-flask-server\swagger_server\utitl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\zhoushan\zhoushan_after\zhoushan\python-flask-server\swagger_server" />
+      <recent name="E:\zhoushan\zhoushan_after\zhoushan\python-flask-server\swagger_server\controllers" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.__main__">
+    <configuration default="false" name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swagger_server" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swagger_server/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="products_controller" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swagger_server/controllers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swagger_server/controllers/products_controller.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="zsdl_repair_plan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/swagger_server/controllers" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/swagger_server/controllers/zsdl_repair_plan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="python-flask-server" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python-flask-server" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Python.__main__" />
+      <item index="1" class="java.lang.String" itemvalue="Python.products_controller" />
+      <item index="2" class="java.lang.String" itemvalue="Python.zsdl_repair_plan" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.__main__" />
+        <item index="1" class="java.lang.String" itemvalue="Python.zsdl_repair_plan" />
+        <item index="2" class="java.lang.String" itemvalue="Python.products_controller" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\flyminer\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\zhoushan\zhoushan_after\zhoushan\python-flask-server" />
+          <option name="myCopyRoot" value="E:\zhoushan\zhoushan_after\zhoushan\python-flask-server" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="E:\zhoushan\zhoushan_after\zhoushan\python-flask-server" />
+          <option name="myCopyRoot" value="E:\zhoushan\zhoushan_after\zhoushan\python-flask-server" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98ce53ad-fb77-4b18-9d90-f77ae66e4348" name="Default" comment="" />
+      <created>1497463421547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1497463421547</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.101387404" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26789588" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25578406" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253796" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253796" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.07592191" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2570499" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.083778016" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/login_register.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/swagger/swagger.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5236">
+          <caret line="238" column="24" selection-start-line="238" selection-start-column="15" selection-end-line="238" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/products_controller.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_expansion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34826">
+          <caret line="1583" column="19" selection-start-line="1583" selection-start-column="19" selection-end-line="1583" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_ Efficiency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/user_controller.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/login_register.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/utitl1/mysqlset.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/products_controller.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/swagger/swagger.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/user_controller.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/login_register.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/utitl1/mysqlset.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/products_controller.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/swagger/swagger.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/user_controller.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/login_register.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/utitl1/mysqlset.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/products_controller.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/swagger/swagger.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2640">
+          <caret line="120" column="20" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/utitl1/excleutil.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/utitl1/mysqlset.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/import/trouble/__init__.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/login_register.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/estimates_controller.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/products_controller.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/user_controller.py" />
+    <entry file="file://$PROJECT_DIR$/swagger_server/utitl/excleutil.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16940">
+          <caret line="772" column="26" selection-start-line="772" selection-start-column="26" selection-end-line="772" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/__main__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_Failure_Analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_IndustryMapping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="35" column="56" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_Abnormal_Electricity.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="87" column="29" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_expansion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-13">
+          <caret line="1803" column="25" selection-start-line="1803" selection-start-column="24" selection-end-line="1803" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_ Efficiency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1501607796185" expanded="true" signature="740:832" ph="select insta... zsdl_setupnet_mainchange" />
+            <marker date="1501607796185" expanded="true" signature="1694:1763" ph="select area_... zsdl_setupnet_mainchange" />
+            <marker date="1501607796185" expanded="true" signature="3632:3739" ph="select Trans... zsdl_SXTransformer_BasicInfo" />
+            <marker date="1501607796185" expanded="true" signature="4026:4125" ph="select Trans... zsdl_SXTransformer_Load" />
+            <marker date="1501607796185" expanded="true" signature="4418:4520" ph="select Trans... zsdl_SXTransformer_BasicInfo" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_Ticket_Query.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <marker date="1501700132182" expanded="true" signature="947:1039" ph="select insta... zsdl_setupnet_mainchange" />
+            <marker date="1501700132182" expanded="true" signature="1452:1538" ph="select runni... zsdl_setupnet_mainchange" />
+            <marker date="1501700132182" expanded="true" signature="1924:2004" ph="select regio... zsdl_setupnet_mainchange" />
+            <marker date="1501700132182" expanded="true" signature="3148:3225" ph="select setup... zsdl_setupnet_highvoltage" />
+            <marker date="1501700132182" expanded="true" signature="3604:3691" ph="select runni... zsdl_setupnet_highvoltage" />
+            <marker date="1501700132182" expanded="true" signature="4021:4102" ph="select regio... zsdl_setupnet_highvoltage" />
+            <marker date="1501700132182" expanded="true" signature="5288:5375" ph="select line_... zsdl_setupnet_middlevoltage" />
+            <marker date="1501700132182" expanded="true" signature="5812:5901" ph="select runni... zsdl_setupnet_middlevoltage" />
+            <marker date="1501700132182" expanded="true" signature="6287:6370" ph="select regio... zsdl_setupnet_middlevoltage" />
+            <marker date="1501700132182" expanded="true" signature="7654:7740" ph="select compa... zsdl_setupnet_netarea" />
+            <marker date="1501700132182" expanded="true" signature="8642:8732" ph="select compa... zsdl_setupnet_reliability" />
+            <marker date="1501700132182" expanded="true" signature="9113:9204" ph="select compa... zsdl_setupnet_reliability" />
+            <marker date="1501700132182" expanded="true" signature="9746:9829" ph="SELECT trans... zsdl_trouble_checkinfo" />
+            <marker date="1501700132182" expanded="true" signature="10442:10521" ph="select works... zsdl_expansion" />
+            <marker date="1501700132182" expanded="true" signature="10901:10977" ph="select suppl... zsdl_expansion" />
+            <marker date="1501700132182" expanded="true" signature="11471:11553" ph="select works... zsdl_closeaccount" />
+            <marker date="1501700132182" expanded="true" signature="11933:12011" ph="select suppl... zsdl_closeaccount" />
+            <marker date="1501700132182" expanded="true" signature="12821:12913" ph="select min(p... zsdl_setupnet_mainchange" />
+            <marker date="1501700132182" expanded="true" signature="13062:13248" ph="select mainc... zsdl_english_chinese" />
+            <marker date="1501700132182" expanded="true" signature="13151:13247" ph="select COLUM... COLUMNS" />
+            <marker date="1501700132182" expanded="true" signature="13701:13749" ph="select * fro... zsdl_setupnet_mainchange" />
+            <marker date="1501700132182" expanded="true" signature="17628:17721" ph="select min(p... zsdl_setupnet_highvoltage" />
+            <marker date="1501700132182" expanded="true" signature="17869:18058" ph="select highv... zsdl_english_chinese" />
+            <marker date="1501700132182" expanded="true" signature="17960:18057" ph="select COLUM... COLUMNS" />
+            <marker date="1501700132182" expanded="true" signature="18506:18555" ph="select * fro... zsdl_setupnet_highvoltage" />
+            <marker date="1501700132182" expanded="true" signature="22382:22477" ph="select min(p... zsdl_setupnet_middlevoltage" />
+            <marker date="1501700132182" expanded="true" signature="22625:22820" ph="select middl... zsdl_english_chinese" />
+            <marker date="1501700132182" expanded="true" signature="22720:22819" ph="select COLUM... COLUMNS" />
+            <marker date="1501700132182" expanded="true" signature="23280:23331" ph="select * fro... zsdl_setupnet_middlevoltage" />
+            <marker date="1501700132182" expanded="true" signature="27326:27503" ph="select netar... zsdl_english_chinese" />
+            <marker date="1501700132182" expanded="true" signature="27409:27502" ph="select COLUM... COLUMNS" />
+            <marker date="1501700132182" expanded="true" signature="27945:27990" ph="select * fro... zsdl_setupnet_netarea" />
+            <marker date="1501700132182" expanded="true" signature="30945:31134" ph="select relia... zsdl_english_chinese" />
+            <marker date="1501700132182" expanded="true" signature="31036:31133" ph="select COLUM... COLUMNS" />
+            <marker date="1501700132182" expanded="true" signature="31531:31580" ph="select * fro... zsdl_setupnet_reliability" />
+            <marker date="1501700132182" expanded="true" signature="33976:34159" ph="select power... zsdl_english_chinese" />
+            <marker date="1501700132182" expanded="true" signature="34063:34158" ph="select COLUM... COLUMNS" />
+            <marker date="1501700132182" expanded="true" signature="34552:34599" ph="select * fro... zsdl_setupnet_powerload" />
+            <marker date="1501700132182" expanded="true" signature="37010:37100" ph="select min(a... zsdl_expansion" />
+            <marker date="1501700132182" expanded="true" signature="37248:37422" ph="select expan... zsdl_english_chinese" />
+            <marker date="1501700132182" expanded="true" signature="37335:37421" ph="select COLUM... COLUMNS" />
+            <marker date="1501700132182" expanded="true" signature="37752:37790" ph="select * fro... zsdl_expansion" />
+            <marker date="1501700132182" expanded="true" signature="41240:41333" ph="select min(a... zsdl_closeaccount" />
+            <marker date="1501700132182" expanded="true" signature="41481:41664" ph="select close... zsdl_english_chinese" />
+            <marker date="1501700132182" expanded="true" signature="41574:41663" ph="select COLUM... COLUMNS" />
+            <marker date="1501700132182" expanded="true" signature="41997:42038" ph="select * fro... zsdl_closeaccount" />
+            <marker date="1501700132182" expanded="true" signature="45570:45641" ph="SELECT ID FR... zsdl_trouble_checkinfo" />
+            <marker date="1501700132182" expanded="true" signature="45785:45818" ph="SELECT count... missing_value" />
+            <marker date="1501700132182" expanded="true" signature="46082:46141" ph="SELECT trans... zsdl_trouble_checkinfo" />
+            <marker date="1501700132182" expanded="true" signature="46347:46400" ph="SELECT count... zsdl_trouble_checkinfo" />
+            <marker date="1501700132182" expanded="true" signature="46581:46655" ph="select TABLE... TABLES" />
+            <marker date="1501700132182" expanded="true" signature="48563:48611" ph="select * fro... zsdl_9558_trouble_ticket" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_repair_plan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+          <folding>
+            <marker date="1501609571575" expanded="true" signature="727:784" ph="SELECT line_... zsdl_load_repair" />
+            <marker date="1501609571575" expanded="true" signature="1188:1276" ph="SELECT trans... zsdl_load_repair" />
+            <marker date="1501609571575" expanded="true" signature="1744:1811" ph="SELECT trans... zsdl_load_repair" />
+            <marker date="1501609571575" expanded="true" signature="4476:4589" ph="SELECT month... " />
+            <marker date="1501609571575" expanded="true" signature="14478:14583" ph="SELECT month... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/utitl/mysqlset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/utitl/rbac_user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="107" column="31" selection-start-line="107" selection-start-column="31" selection-end-line="107" selection-end-column="31" />
+          <folding>
+            <element signature="e#41#68#0" expanded="true" />
+            <marker date="1502330518144" expanded="true" signature="240:334" ph="SELECT COUNT... r_access" />
+            <marker date="1502330518144" expanded="true" signature="542:582" ph="SELECT `grou... r_user" />
+            <marker date="1502330518144" expanded="true" signature="698:757" ph="SELECT `role... r_role_group" />
+            <marker date="1502330518144" expanded="true" signature="1152:1193" ph="SELECT * FRO... r_access" />
+            <marker date="1502330518144" expanded="true" signature="1398:1445" ph="SELECT * FRO... r_node" />
+            <marker date="1502330518144" expanded="true" signature="2423:2492" ph="SELECT COUNT... r_user_group" />
+            <marker date="1502330518144" expanded="true" signature="3139:3167" ph="SELECT * FRO... r_user_group" />
+            <marker date="1502330518144" expanded="true" signature="4049:4114" ph="SELECT COUNT... r_role" />
+            <marker date="1502330518144" expanded="true" signature="4542:4564" ph="SELECT * FRO... r_role" />
+            <marker date="1502330518144" expanded="true" signature="5532:5597" ph="SELECT COUNT... r_node" />
+            <marker date="1502330518144" expanded="true" signature="6197:6219" ph="SELECT * FRO... r_node" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_import.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1082">
+          <caret line="383" column="32" selection-start-line="383" selection-start-column="32" selection-end-line="383" selection-end-column="32" />
+          <folding>
+            <element signature="e#24#40#0" expanded="true" />
+            <marker date="1502761762792" expanded="true" signature="3246:3373" ph="insert into uploadfile_information... " />
+            <marker date="1502761762792" expanded="true" signature="3624:3713" ph="select id fr... zsdl_setupnet_reliability" />
+            <marker date="1502761762792" expanded="true" signature="3839:3912" ph="insert into zsdl_setupnet_reliability... " />
+            <marker date="1502761762792" expanded="true" signature="3839:3919" ph="insert into zsdl_setupnet_reliability... " />
+            <marker date="1502761762792" expanded="true" signature="3839:3923" ph="insert into zsdl_setupnet_reliability... " />
+            <marker date="1502761762792" expanded="true" signature="3839:3924" ph="insert into zsdl_setupnet_reliability... " />
+            <marker date="1502761762792" expanded="true" signature="3839:3926" ph="insert into zsdl_setupnet_reliability... " />
+            <marker date="1502761762792" expanded="true" signature="4298:4387" ph="select id fr... zsdl_setupnet_reliability" />
+            <marker date="1502761762792" expanded="true" signature="4505:4586" ph="insert into zsdl_setupnet_reliability... " />
+            <marker date="1502761762792" expanded="true" signature="7751:7861" ph="insert into zsdl_uploadfile_information... " />
+            <marker date="1502761762792" expanded="true" signature="11347:11457" ph="insert into zsdl_uploadfile_information... " />
+            <marker date="1502761762792" expanded="true" signature="13773:13866" ph="select SX_Tr... zsdl_SXTransformer_Location" />
+            <marker date="1502761762792" expanded="true" signature="15141:15191" ph="DELETE FROM " />
+            <marker date="1502761762792" expanded="true" signature="15141:15193" ph="DELETE FROM " />
+            <marker date="1502761762792" expanded="true" signature="15505:15558" ph="select count... zsdl_trouble_checkinfo" />
+            <marker date="1502761762792" expanded="true" signature="15690:15749" ph="select trans... zsdl_trouble_checkinfo" />
+            <marker date="1502761762792" expanded="true" signature="15690:15751" ph="select trans... zsdl_trouble_checkinfo" />
+            <marker date="1502761762792" expanded="true" signature="15953:16257" ph="insert into missing_value... " />
+            <marker date="1502761762792" expanded="true" signature="15953:16261" ph="insert into " />
+            <marker date="1502761762792" expanded="true" signature="15953:16262" ph="insert into missing_value... " />
+            <marker date="1502761762792" expanded="true" signature="16084:16257" ph="select datet... zsdl_transformload_import" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/swagger/swagger.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="425" column="20" selection-start-line="425" selection-start-column="20" selection-end-line="425" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_failure_prediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="157" column="21" selection-start-line="157" selection-start-column="16" selection-end-line="157" selection-end-column="21" />
+          <folding>
+            <marker date="1502879155230" expanded="true" signature="742:820" ph="SELECT troub... zsdl_trouble_reference_load" />
+            <marker date="1502879155230" expanded="true" signature="1419:1497" ph="SELECT trans... zsdl_trouble_reference_load" />
+            <marker date="1502879155230" expanded="true" signature="1928:2006" ph="SELECT trans... zsdl_load_predict" />
+            <marker date="1502879155230" expanded="true" signature="2324:2402" ph="SELECT trans... zsdl_trouble_reference_load" />
+            <marker date="1502879155230" expanded="true" signature="3056:3141" ph="SELECT troub... zsdl_trouble_reference_load" />
+            <marker date="1502879155230" expanded="true" signature="3598:3661" ph="SELECT ID FR... zsdl_trouble_checkinfo" />
+            <marker date="1502879155230" expanded="true" signature="3865:3925" ph="select min(d... missing_value" />
+            <marker date="1502879155230" expanded="true" signature="4497:4596" ph="SELECT momen... missing_value" />
+            <marker date="1502879155230" expanded="true" signature="7050:7135" ph="SELECT troub... zsdl_trouble_reference_load" />
+            <marker date="1502879155230" expanded="true" signature="7593:7663" ph="SELECT ID FR... zsdl_load_predict" />
+            <marker date="1502879155230" expanded="true" signature="7795:7855" ph="select min(d... missing_value" />
+            <marker date="1502879155230" expanded="true" signature="7795:7894" ph="select min(d... zsdl_load_predict" />
+            <marker date="1502879155230" expanded="true" signature="7795:7898" ph="select min(d... zsdl_load_predict" />
+            <marker date="1502879155230" expanded="true" signature="7795:7922" ph="select min(d... zsdl_load_predict" />
+            <marker date="1502879155230" expanded="true" signature="8472:8561" ph="SELECT predi... missing_value" />
+            <marker date="1502879155230" expanded="true" signature="8472:8587" ph="SELECT predi... zsdl_load_predict" />
+            <marker date="1502879155230" expanded="true" signature="10337:10422" ph="SELECT troub... zsdl_trouble_reference_load" />
+            <marker date="1502879155230" expanded="true" signature="11269:11332" ph="SELECT ID FR... zsdl_trouble_checkinfo" />
+            <marker date="1502879155230" expanded="true" signature="11523:11586" ph="SELECT datet... missing_value" />
+            <marker date="1502879155230" expanded="true" signature="14438:14523" ph="SELECT troub... zsdl_trouble_reference_load" />
+            <marker date="1502879155230" expanded="true" signature="15382:15445" ph="SELECT ID FR... zsdl_trouble_checkinfo" />
+            <marker date="1502879155230" expanded="true" signature="15642:15743" ph="SELECT datet... missing_value" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_login_register.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+          <folding>
+            <element signature="e#25#72#0" expanded="true" />
+            <marker date="1502879155195" expanded="true" signature="582:646" ph="select * fro... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="990:1036" ph="select * fro... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="990:1190" ph="select name zsdl_user_node" />
+            <marker date="1502879155195" expanded="true" signature="1037:1189" ph="select pid F... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="1077:1188" ph="SELECT role_... zsdl_user_role_group" />
+            <marker date="1502879155195" expanded="true" signature="1139:1187" ph="SELECT `grou... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="1290:1328" ph="select * fro... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="1290:1329" ph="select name,... missing_value" />
+            <marker date="1502879155195" expanded="true" signature="2576:2606" ph="UPDATE table... " />
+            <marker date="1502879155195" expanded="true" signature="2576:2642" ph="UPDATE zsdl_... " />
+            <marker date="1502879155195" expanded="true" signature="2576:2644" ph="UPDATE zsdl_... " />
+            <marker date="1502879155195" expanded="true" signature="3138:3336" ph="select name zsdl_user_node" />
+            <marker date="1502879155195" expanded="true" signature="3183:3335" ph="select pid F... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="3223:3334" ph="SELECT role_... zsdl_user_role_group" />
+            <marker date="1502879155195" expanded="true" signature="3285:3333" ph="SELECT `grou... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="3433:3472" ph="select name,... missing_value" />
+            <marker date="1502879155195" expanded="true" signature="4325:4532" ph="select admin... zsdl_user_role_map" />
+            <marker date="1502879155195" expanded="true" signature="4377:4531" ph="select name zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="4419:4530" ph="SELECT role_... zsdl_user_role_group" />
+            <marker date="1502879155195" expanded="true" signature="4481:4529" ph="SELECT `grou... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="4928:4975" ph="SELECT name zsdl_user_role_map" />
+            <marker date="1502879155195" expanded="true" signature="5620:5777" ph="select `name... zsdl_user_group" />
+            <marker date="1502879155195" expanded="true" signature="5668:5776" ph="select user_... zsdl_user_role_group" />
+            <marker date="1502879155195" expanded="true" signature="5730:5759" ph="select id FR... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="5730:5775" ph="select id FR... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="6382:6438" ph="select id fr... zsdl_user_group" />
+            <marker date="1502879155195" expanded="true" signature="6654:6711" ph="insert into zsdl_user_group... " />
+            <marker date="1502879155195" expanded="true" signature="6835:6891" ph="select id fr... zsdl_user_group" />
+            <marker date="1502879155195" expanded="true" signature="7015:7070" ph="select id fr... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="7156:7229" ph="insert into zsdl_user_role_group... " />
+            <marker date="1502879155195" expanded="true" signature="7692:7754" ph="select `name... zsdl_user_role_map" />
+            <marker date="1502879155195" expanded="true" signature="8072:8154" ph="select `name... zsdl_user_role_map" />
+            <marker date="1502879155195" expanded="true" signature="8755:8856" ph="select `name... zsdl_user_node" />
+            <marker date="1502879155195" expanded="true" signature="8808:8855" ph="SELECT id FR... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="8953:8983" ph="select title... missing_value" />
+            <marker date="1502879155195" expanded="true" signature="9562:9663" ph="select `name... zsdl_user_node" />
+            <marker date="1502879155195" expanded="true" signature="9615:9662" ph="SELECT id FR... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="10474:10617" ph="insert into missing_value... " />
+            <marker date="1502879155195" expanded="true" signature="10535:10613" ph="select `name... missing_value" />
+            <marker date="1502879155195" expanded="true" signature="10810:10829" ph="UPDATE missi... " />
+            <marker date="1502879155195" expanded="true" signature="10922:10959" ph="UPDATE missi... " />
+            <marker date="1502879155195" expanded="true" signature="11422:11477" ph="select id fr... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="11724:11796" ph="insert into zsdl_user_role... " />
+            <marker date="1502879155195" expanded="true" signature="11918:11973" ph="select id fr... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="12197:12251" ph="select MAX(a... zsdl_user_role_map" />
+            <marker date="1502879155195" expanded="true" signature="12197:12252" ph="select MAX(a... zsdl_user_role_map" />
+            <marker date="1502879155195" expanded="true" signature="12337:12400" ph="insert into zsdl_user_role_map... " />
+            <marker date="1502879155195" expanded="true" signature="12627:12846" ph="select user_... zsdl_user_role_map" />
+            <marker date="1502879155195" expanded="true" signature="12689:12845" ph="SELECT `name... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="12733:12774" ph="SELECT role_... zsdl_user_role_group" />
+            <marker date="1502879155195" expanded="true" signature="12733:12844" ph="SELECT role_... zsdl_user_role_group" />
+            <marker date="1502879155195" expanded="true" signature="12795:12843" ph="SELECT `grou... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="12938:13000" ph="insert into zsdl_user_role_map... " />
+            <marker date="1502879155195" expanded="true" signature="13236:13279" ph="select `name... zsdl_user_node" />
+            <marker date="1502879155195" expanded="true" signature="13792:13867" ph="insert into zsdl_user_node... " />
+            <marker date="1502879155195" expanded="true" signature="14017:14296" ph="CREATE TABLE... IF" />
+            <marker date="1502879155195" expanded="true" signature="14533:14563" ph="select title... missing_value" />
+            <marker date="1502879155195" expanded="true" signature="15376:15477" ph="select `name... zsdl_user_node" />
+            <marker date="1502879155195" expanded="true" signature="15421:15476" ph="select id fr... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="15635:15662" ph="select title... zsdl_user_node" />
+            <marker date="1502879155195" expanded="true" signature="15635:15665" ph="select title... missing_value" />
+            <marker date="1502879155195" expanded="true" signature="16361:16462" ph="select `name... zsdl_user_node" />
+            <marker date="1502879155195" expanded="true" signature="16414:16461" ph="SELECT id FR... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="16560:16579" ph="UPDATE missi... " />
+            <marker date="1502879155195" expanded="true" signature="16680:16717" ph="UPDATE missi... " />
+            <marker date="1502879155195" expanded="true" signature="17206:17310" ph="select role_... zsdl_user_role_group" />
+            <marker date="1502879155195" expanded="true" signature="17262:17309" ph="select id FR... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="17492:17537" ph="DELETE FROM " />
+            <marker date="1502879155195" expanded="true" signature="17492:17541" ph="DELETE FROM " />
+            <marker date="1502879155195" expanded="true" signature="17678:17771" ph="select `name... zsdl_user_node" />
+            <marker date="1502879155195" expanded="true" signature="17723:17770" ph="SELECT id FR... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="17893:17904" ph="DROP TABLE '... " />
+            <marker date="1502879155195" expanded="true" signature="18033:18119" ph="DELETE FROM " />
+            <marker date="1502879155195" expanded="true" signature="18071:18118" ph="SELECT id FR... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="18300:18344" ph="DELETE FROM " />
+            <marker date="1502879155195" expanded="true" signature="18904:18947" ph="select id,`n... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="19406:19450" ph="select id,`n... zsdl_user_group" />
+            <marker date="1502879155195" expanded="true" signature="19880:19924" ph="select `name... zsdl_user_group" />
+            <marker date="1502879155195" expanded="true" signature="20383:20439" ph="select id fr... zsdl_user_group" />
+            <marker date="1502879155195" expanded="true" signature="20525:20580" ph="select id fr... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="20659:20722" ph="UPDATE zsdl_... " />
+            <marker date="1502879155195" expanded="true" signature="21202:21308" ph="UPDATE zsdl_... " />
+            <marker date="1502879155195" expanded="true" signature="21232:21288" ph="select id fr... zsdl_user_group" />
+            <marker date="1502879155195" expanded="true" signature="21752:21792" ph="DELETE FROM " />
+            <marker date="1502879155195" expanded="true" signature="22279:22368" ph="select id fr... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="22319:22367" ph="select id FR... zsdl_user_group" />
+            <marker date="1502879155195" expanded="true" signature="22567:22670" ph="DELETE FROM " />
+            <marker date="1502879155195" expanded="true" signature="22621:22669" ph="SELECT id FR... zsdl_user_group" />
+            <marker date="1502879155195" expanded="true" signature="22801:22846" ph="DELETE FROM " />
+            <marker date="1502879155195" expanded="true" signature="23251:23262" ph="DROP TABLE m... " />
+            <marker date="1502879155195" expanded="true" signature="23251:23264" ph="DROP TABLE m... " />
+            <marker date="1502879155195" expanded="true" signature="23611:23678" ph="insert into zsdl_user_node... " />
+            <marker date="1502879155195" expanded="true" signature="23617:23678" ph="insert into zsdl_user_node... " />
+            <marker date="1502879155195" expanded="true" signature="23840:23962" ph="CREATE TABLE... IF" />
+            <marker date="1502879155195" expanded="true" signature="23840:23999" ph="CREATE TABLE... IF" />
+            <marker date="1502879155195" expanded="true" signature="23840:24022" ph="CREATE TABLE... IF" />
+            <marker date="1502879155195" expanded="true" signature="23840:24049" ph="CREATE TABLE... IF" />
+            <marker date="1502879155195" expanded="true" signature="23840:24084" ph="CREATE TABLE... IF" />
+            <marker date="1502879155195" expanded="true" signature="24098:24381" ph="CREATE TABLE... IF" />
+            <marker date="1502879155195" expanded="true" signature="24771:24978" ph="select admin... zsdl_user_role_map" />
+            <marker date="1502879155195" expanded="true" signature="24823:24977" ph="select name zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="24823:24978" ph="select name zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="24865:24976" ph="SELECT role_... zsdl_user_role_group" />
+            <marker date="1502879155195" expanded="true" signature="24927:24975" ph="SELECT `grou... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="25174:25242" ph="select accou... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="25653:25705" ph="select `name... zsdl_user_group" />
+            <marker date="1502879155195" expanded="true" signature="26526:26744" ph="select id,na... zsdl_user_group" />
+            <marker date="1502879155195" expanded="true" signature="26576:26744" ph="select user_... " />
+            <marker date="1502879155195" expanded="true" signature="26638:26742" ph="select id FR... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="26638:26744" ph="select id FR... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="26680:26729" ph="select id fr... zsdl_user_group" />
+            <marker date="1502879155195" expanded="true" signature="26680:26739" ph="select name zsdl_user_group" />
+            <marker date="1502879155195" expanded="true" signature="26680:26741" ph="select name zsdl_user_group" />
+            <marker date="1502879155195" expanded="true" signature="27121:27202" ph="select accou... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="27121:27204" ph="select accou... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="27317:27399" ph="select accou... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="27317:27416" ph="select accou... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="27550:27618" ph="select accou... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="27550:27624" ph="select accou... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="30656:30698" ph="select * fro... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="30656:30702" ph="select id fr... zsdl_user_role" />
+            <marker date="1502879155195" expanded="true" signature="31033:31089" ph="select * fro... zsdl_user" />
+            <marker date="1502879155195" expanded="true" signature="31305:31403" ph="insert into zsdl_user... " />
+            <marker date="1502879155195" expanded="true" signature="31305:31446" ph="insert into zsdl_user... " />
+            <marker date="1502879155195" expanded="true" signature="31471:31558" ph="insert into zsdl_user... " />
+            <marker date="1502879155195" expanded="true" signature="31471:31616" ph="insert into zsdl_user... " />
+            <marker date="1502879155195" expanded="true" signature="31713:31769" ph="select * fro... zsdl_user" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swagger_server/controllers/zsdl_ElectricityPrediction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="501" column="38" selection-start-line="501" selection-start-column="38" selection-end-line="501" selection-end-column="38" />
+          <folding>
+            <element signature="e#24#40#0" expanded="true" />
+            <marker date="1502879175763" expanded="true" signature="907:970" ph="SELECT ID FR... zsdl_trouble_checkinfo" />
+            <marker date="1502879175763" expanded="true" signature="1231:1291" ph="select min(d... missing_value" />
+            <marker date="1502879175763" expanded="true" signature="2251:2315" ph="SELECT momen... " />
+            <marker date="1502879175763" expanded="true" signature="4813:4877" ph="SELECT momen... " />
+            <marker date="1502879175763" expanded="true" signature="8058:8098" ph="SELECT momen... " />
+            <marker date="1502879175763" expanded="true" signature="10702:10766" ph="SELECT momen... " />
+            <marker date="1502879175763" expanded="true" signature="12519:12582" ph="SELECT ID FR... zsdl_trouble_checkinfo" />
+            <marker date="1502879175763" expanded="true" signature="12853:12913" ph="select min(d... missing_value" />
+            <marker date="1502879175763" expanded="true" signature="12853:12956" ph="select min(d... zsdl_load_predict" />
+            <marker date="1502879175763" expanded="true" signature="13994:14096" ph="SELECT predi... zsdl_load_predict" />
+            <marker date="1502879175763" expanded="true" signature="15447:15534" ph="SELECT datet... zsdl_load_predict" />
+            <marker date="1502879175763" expanded="true" signature="17470:17572" ph="SELECT predi... zsdl_load_predict" />
+            <marker date="1502879175763" expanded="true" signature="20751:20829" ph="SELECT predi... zsdl_load_predict" />
+            <marker date="1502879175763" expanded="true" signature="23410:23512" ph="SELECT predi... zsdl_load_predict" />
+            <marker date="1502879175763" expanded="true" signature="25331:25390" ph="select trans... zsdl_trouble_checkinfo" />
+            <marker date="1502879175763" expanded="true" signature="25422:25510" ph="select trans... zsdl_trouble_checkinfo" />
+            <marker date="1502879175763" expanded="true" signature="25945:26023" ph="select trans... zsdl_load_predict" />
+            <marker date="1502879175763" expanded="true" signature="26397:26474" ph="select min(d... zsdl_load_predict" />
+            <marker date="1502879175763" expanded="true" signature="26397:26475" ph="select min(d... zsdl_load_predict" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

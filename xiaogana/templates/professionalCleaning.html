@@ -1,0 +1,184 @@
+<div class="page-container container ddd professionalCleaning">
+  <div class="page-head">基站专业清理统计表</div>
+  <div class="page-content row">
+    <div class="left">
+       <!--选择日期-->
+      <div class='search search1 	col-sm-8 col-md-6 col-lg-5'>
+        <div class="form-group">
+          <p>起始日期：</p>
+          <!--指定 date标记-->
+          <div class='input-group date' datetimepicker id='datetimepicker1'>
+            <input type='text' class="form-control" ng-model="dateOne" />
+            <span class="input-group-addon">  
+              <span class="glyphicon glyphicon-calendar"></span>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <p>结束日期：</p>
+          <!--指定 date标记-->
+          <div class='input-group date' datetimepicker id='datetimepicker2'>
+            <input type='text' class="form-control" ng-model="dateTwo" />
+            <span class="input-group-addon">  
+              <span class="glyphicon glyphicon-calendar"></span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="search search2 	col-sm-4 col-md-3 col-lg-2">
+        <p>县市：</p>
+        <div class="search2Div">
+          <select name="cars" class="search2Input"  ng-model="area">
+            <option value="">全部</option>
+            <option >安陆</option>
+            <option >大悟</option>
+            <option >汉川</option>
+            <option >孝昌</option>
+            <option >孝南</option>
+            <option >应城</option>
+            <option >云梦</option>
+          </select>
+        </div>
+      </div>
+      <div class="search search3  col-sm-4 col-md-4 col-lg-2">
+        <p>维护级别：</p>
+        <div class="search3Div">
+          <select name="cars" class="search3Input"  ng-model="rank">
+            <option value="">全部</option>
+            <option >普通</option>
+            <option >高等级</option>
+          </select>
+        </div>
+      </div>
+      <div class="search search4 	col-sm-4 col-md-3 col-lg-3">
+        <p>机房类型：</p>
+        <div class="search4Div">
+          <select name="cars" class="search4Input"  ng-model="station" >
+            <option value="">全部</option>
+            <option >一体化</option>
+            <option >自建机房</option>
+            <option >租赁机房</option>
+          </select>
+        </div>
+      </div>
+      <div class="search search5 	col-sm-4 col-md-3 col-lg-3">
+        <p>铁塔类型：</p>
+        <div class="search5Div">
+          <select name="cars" class="search5Input"  ng-model="tower" >
+            <option value="">全部</option>
+            <option >美化天线</option>
+            <option >四角塔</option>
+            <option >三角塔</option>
+            <option >拉线塔</option>
+            <option >楼面抱杆</option>
+            <option >路灯杆</option>
+          </select>
+        </div>
+      </div>
+      <div class="search search6 	col-sm-4 col-md-3 col-lg-3">
+        <p>基站类型：</p>
+        <div class="search6Div">
+          <select name="cars" class="search6Input"  ng-model="gtype">
+            <option value="">全部</option>
+            <option >2G+4G</option>
+            <option >2G+3G+4G</option>
+            <option >3G+4G</option>
+            <option >2G</option>
+            <option >3G</option>
+            <option >4G</option>
+          </select>
+        </div>
+      </div>
+      <div class="search search7  col-sm-4 col-md-4 col-lg-2">
+        <p>是否移交</p>
+        <div class="search7Div">
+          <select name="cars" class="search7Input"  ng-model="transfer">
+            <option value="">全部</option>
+            <option >全部移交</option>
+            <option >机房移交</option>
+            <option >铁塔移交</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="reight">
+      <button type="button" class="btn btn1 btn-default" ng-click="search()">
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>搜索
+      </button>
+      <button type="button" class="btn btn2 btn-default" ng-click="export()">
+        <span class="glyphicon glyphicon-share" aria-hidden="true"></span>导出
+      </button>
+    </div>
+  </div>
+
+  <div class="page-foot col-md-12">
+    <table id="datatable-buttons" class="table table-striped table-bordered">
+      <thead style="background:#ccc;">
+        <tr>
+          <th style="width:5%">县市</th>
+          <th style="width:5%">基站名称</th>
+          <th style="width:5%">基站编码</th>
+          <th style="width:5%">详细地点描述</th>
+          <th style="width:5%">维护级别</th>
+
+          <th style="width:5%">机房类型</th>
+          <th style="width:5%">铁塔类型</th>
+          <th style="width:5%">铁塔高度（米）</th>
+          <th style="width:5%">基站类型</th>
+          <th style="width:5%">是否移交</th>
+
+          <th style="width:5%">共享家数</th>
+        </tr>
+      </thead>
+      <tbody style="background:#fff;">
+        <tr ng-repeat="x in items">
+          <td>[[x.area]]</td>
+          <td>[[x.name]]</td>
+          <td>[[x.number]]</td>
+          <td>[[x.address]]</td>
+          <td>[[x.rank]]</td>
+
+          <td>[[x.jifan]]</td>
+          <td>[[x.tower]]</td>
+          <td>[[x.height]]</td>
+          <td>[[x.jizhan]]</td>
+          <td>[[x.transfer]]</td>
+
+          <td>[[x.share]]</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+  <div id="fenye" style="width:100%">
+    <nav>
+        <ul class="pagination" style="float: right;margin-right: 100px;">
+            <li>
+                <a ng-click="Previous()">
+                    <span>上一页</span>
+                </a>
+            </li>
+            <li ng-repeat="page in pageList" ng-class="{active: isActivePage(page)}" >
+                <a ng-click="selectPage(page)" style="width:34px">[[page]]</a>
+            </li>
+            <li>
+                <a ng-click="Next()">
+                    <span>下一页</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+  </div>
+</div>
+
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+      <!--<div>[url][[url]{url}{{url}}<div>-->
+        <img class="modal-img"  ng-src="[[imgUrl]]">
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,130 @@
+
+                <div class="row">
+                <div class="col-md-12" style="position:relative;">
+                <div class="anniu">
+                      <input type="button" name="Submit" value="返回" onclick="javascript:history.back(-1);">
+                    </div>
+                    <h3 style="height:28px;line-height:28px;font-size:16px;font-weight:700;color:#7B777B;margin:10px 0;" class="xq pull-left">
+                        基站详情列表&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span style="font-size:14px;color:#73879C;font-weight:100;">[[baseStation]]</span>
+                    </h3>  
+                    <span style="height:28px;width:120px;text-align:center;line-height:28px;margin-top:10px;background: #7B777B;" class="lineSpan pull-right">
+                        <a ng-click="line(baseStation)" class="checkA"" style="font-size:16px;color:#ddd;font-weight:600;">查看基站折线图</a>
+                    </span>
+                    <div class="col-md-12" style="position:relative;">    
+                    <h3 style="height:28px;line-height:28px;font-size:16px;font-weight:600;color:#7B777B;margin:10px 0;" class="pull-left">
+                        当前基站功率:&nbsp;&nbsp;&nbsp;&nbsp;
+                        <span style="font-size:14px;color:#73879C;font-weight:100;" class="pws">[[baseStationPower]]</span>
+                    </h3>
+                     </div>
+                </div>
+                <div class="col-md-12" style="position:relative;">
+                    <h4 style="height:28px;line-height:28px;font-size:14px;font-weight:700;color:#7B777B;margin:10px 0;" class="pull-left">
+                        2G设备详情&nbsp;&nbsp;&nbsp;&nbsp;
+                    </h4>      
+                </div>
+                    <div class="col-md-12">
+                        <div class="portlet-body">
+                            <table id="datatable-buttons" class="table table-striped table-bordered">
+                                <thead style="background:#ccc;">
+                                    <tr>
+                                        <th ng-repeat="item in columnText">
+                                            <span class="tableSpan">[[item]]</span>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody style="background:#fff;">
+                                    <tr ng-repeat="row in importList"  repeat-finish>
+                                        <td ng-repeat="item in row track by $index">
+                                            <span class="tableSpan">
+                                            <input class="neirong" id="ip_[[$index]]" style="border:none;background:#fff;text-align:center;" disabled="false" ng-model="item"/>
+                                            </span>
+                                        </td>
+                                        <td>
+                                            <span class="tableSpan" style="cursor:pointer;">
+                                                <a ng-click="amend(row)" class="compile">编辑</a>
+                                                <a class="putIn">提交</a>
+                                                <input type="hidden" class="sb" value="2G">
+                                                <a class="revocation">取消</a>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>  
+        <div class="row">
+        <div class="col-md-12" style="position:relative;">
+            <h4 style="height:28px;line-height:28px;font-size:14px;font-weight:700;color:#7B777B;margin:10px 0;" class="pull-left">
+                4G设备详情&nbsp;&nbsp;&nbsp;&nbsp;
+            </h4>      
+        </div>
+            <div class="col-md-12">
+                <div class="portlet-body">
+                    <table id="datatable-buttons" class="table table-striped table-bordered">
+                        <thead style="background:#ccc;">
+                            <tr>
+                                <th ng-repeat="item in columnText">
+                                    <span class="tableSpan">[[item]]</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody style="background:#fff;">
+                            <tr ng-repeat="row in importList2"  repeat-finish>
+                                <td ng-repeat="item in row track by $index">
+                                    <span class="tableSpan">
+                                    <input class="neirong" id="ip_[[$index]]" style="border:none;background:#fff;text-align:center;" disabled="false" ng-model="item"/>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="tableSpan" style="cursor:pointer;">
+                                        <a ng-click="amend(row)" class="compile">编辑</a>
+                                        <a class="putIn">提交</a>
+                                        <input type="hidden" class="sb" value="4G">
+                                        <a class="revocation">取消</a>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+        <div class="col-md-12" style="position:relative;">
+            <h4 style="height:28px;line-height:28px;font-size:14px;font-weight:700;color:#7B777B;margin:10px 0;" class="pull-left">
+                空调设备详情&nbsp;&nbsp;&nbsp;&nbsp;
+            </h4>      
+        </div>
+            <div class="col-md-12">
+                <div class="portlet-body">
+                    <table id="datatable-buttons" class="table table-striped table-bordered">
+                        <thead style="background:#ccc;">
+                            <tr>
+                                <th ng-repeat="item in columnText">
+                                    <span class="tableSpan">[[item]]</span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody style="background:#fff;">
+                            <tr ng-repeat="row in importList3"  repeat-finish>
+                                <td ng-repeat="item in row track by $index">
+                                    <span class="tableSpan">
+                                    <input class="neirong" id="ip_[[$index]]" style="border:none;background:#fff;text-align:center;" disabled="false" ng-model="item"/>
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="tableSpan" style="cursor:pointer;">
+                                        <a ng-click="amend(row)" class="compile">编辑</a>
+                                        <a class="putIn">提交</a>
+                                        <input type="hidden" class="sb" value="空调">
+                                        <a class="revocation">取消</a>
+                                    </span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>

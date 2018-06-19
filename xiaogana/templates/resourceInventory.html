@@ -1,0 +1,117 @@
+<div class="page-container container ddd resourceInventory">
+  <div class="page-head">资源清查汇总</div>
+   <div class="page-content row">
+    <div class="left">
+       <!--选择日期-->
+      <div class='search search1 	col-sm-8 col-md-6 col-lg-5'>
+        <div class="form-group">
+          <p>起始日期：</p>
+          <!--指定 date标记-->
+          <div class='input-group date' datetimepicker id='datetimepicker1'>
+            <input type='text' class="form-control" ng-model="dateOne" />
+            <span class="input-group-addon">  
+              <span class="glyphicon glyphicon-calendar"></span>
+            </span>
+          </div>
+        </div>
+        <div class="form-group">
+          <p>结束日期：</p>
+          <!--指定 date标记-->
+          <div class='input-group date' datetimepicker id='datetimepicker2'>
+            <input type='text' class="form-control" ng-model="dateTwo" />
+            <span class="input-group-addon">  
+              <span class="glyphicon glyphicon-calendar"></span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="search search2 	col-sm-4 col-md-3 col-lg-2">
+        <p>县市：</p>
+        <div class="search2Div">
+          <select name="cars" class="search2Input"  ng-model="area">
+            <option value="">全部</option>
+            <option >安陆</option>
+            <option >大悟</option>
+            <option >汉川</option>
+            <option >孝昌</option>
+            <option >孝南</option>
+            <option >应城</option>
+            <option >云梦</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="reight">
+      <button type="button" class="btn btn1 btn-default" ng-click="search()">
+        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>搜索
+      </button>
+      <button type="button" class="btn btn2 btn-default" ng-click="export()">
+        <span class="glyphicon glyphicon-share" aria-hidden="true"></span>导出
+      </button>
+    </div>
+  </div>
+  
+  <div class="page-foot col-md-12">
+    <table id="datatable-buttons" class="table table-striped table-bordered">
+      <thead style="background:#ccc;">
+        <tr>
+          <th style="width:5%">县市</th>
+          <th style="width:5%">站点总数</th>
+          <th style="width:5%">全部移交</th>
+          <th style="width:5%">移交铁塔</th>
+          <th style="width:5%">移交机房</th>
+
+          <th style="width:5%">铁塔新建站</th>
+          <th style="width:5%">未移交</th>
+          <th style="width:5%">备注</th>
+          <th style="width:5%">照片总数</th>
+        </tr>
+      </thead>
+      <tbody style="background:#fff;">
+        <tr ng-repeat="x in items">
+          <td>[[x.area]]</td>
+          <td>[[x.totle]]</td>
+          <td>[[x.yijiao]]</td>
+          <td>[[x.yijiaotower]]</td>
+          <td>[[x.yijiaojifan]]</td>
+
+          <td>[[x.nowtower]]</td>
+          <td>[[x.noyijiao]]</td>
+          <td>[[x.desc]]</td>
+          <td>[[x.piccount]]</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div id="fenye" style="width:100%">
+    <nav>
+        <ul class="pagination" style="float: right;margin-right: 100px;">
+            <li>
+                <a ng-click="Previous()">
+                    <span>上一页</span>
+                </a>
+            </li>
+            <li ng-repeat="page in pageList" ng-class="{active: isActivePage(page)}" >
+                <a ng-click="selectPage(page)" style="width:34px">[[page]]</a>
+            </li>
+            <li>
+                <a ng-click="Next()">
+                    <span>下一页</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+  </div>
+</div>
+
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+      <!--<div>[url][[url]{url}{{url}}<div>-->
+        <img class="modal-img"  ng-src="[[imgUrl]]">
+			</div>
+		</div>
+	</div>
+</div>

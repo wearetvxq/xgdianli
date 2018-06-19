@@ -1,0 +1,67 @@
+192.168.188.178:91/xiaogan/phone/reading                  
+'''
+station *  基站名称
+last * 上月日均耗电量
+meter *  示数
+now *  本月
+percentage *   耗电比
+reason *  原因
+pic *图片url
+'''
+{
+	"code":0
+	"msg":"success"
+}
+
+{'station'：某某基站，'last':'18.95'}
+
+
+192.168.188.178:91/xiaogan/phone/clean
+'''
+station *  基站名称
+number *  编号
+synergy *  综资名称
+address *   地址
+rank *  维护级别
+jifang *   机房类型
+tieta *  铁塔类型
+jizhan *  基站类型
+height *  铁塔高度
+transfer * 是否移交
+shared *  共享家数
+pic * 图片url
+
+'''
+
+192.168.188.178:91/xiaogan/phone/equipment
+'''蓄电池
+typec *  类型
+area * 县市分公司
+name *  名称
+code * 编号
+type *  类型
+address *  位置
+produce * 厂家
+number * 型号
+cap *  容量
+group *  组数
+monitor *  是否监控
+c *   开始时间
+load *  负载
+times *  后备时长
+power *  停电
+oil *  油机
+pic *  图片url
+desc *  备注
+people *
+phone *
+'''
+
+192.168.188.178:91/xiaogan/phone/upload
+files:图片文件
+
+{
+	"code":0
+	"msg":"success"
+	"url":"192.168.188.178:86/a.png"
+}
